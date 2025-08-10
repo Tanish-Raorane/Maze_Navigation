@@ -15,7 +15,7 @@ C:/Users/ci24393/Downloads/9DStylus_UnityDemo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55925
+49882
 Successfully changed project path to: C:/Users/ci24393/Downloads/9DStylus_UnityDemo
 C:/Users/ci24393/Downloads/9DStylus_UnityDemo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ci24393/Downloads/9DStylus_UnityDemo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26376] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 2192555027 [EditorId] 2192555027 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20880] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 819053314 [EditorId] 819053314 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26376] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 2192555027 [EditorId] 2192555027 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20880] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 819053314 [EditorId] 819053314 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 15.15 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
+Refreshing native plugins compatible for Editor in 16.55 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ci24393/Downloads/9DStylus_UnityDemo/Assets
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -77,42 +77,42 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.010614 seconds.
-- Loaded All Assemblies, in  0.235 seconds
+Registered in 0.011388 seconds.
+- Loaded All Assemblies, in  0.225 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 273 ms
+Android Extension - Scanning For ADB Devices 275 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.468 seconds
-Domain Reload Profiling: 701ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 695ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (62ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (82ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (468ms)
+	FinalizeReload (472ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (437ms)
+		SetupLoadedEditorAssemblies (439ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (359ms)
+			InitializePlatformSupportModulesInManaged (361ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
@@ -128,8 +128,8 @@ Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D fi
 
 Please note that FBX files exported from Cinema4D are still supported.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.496 seconds
-Refreshing native plugins compatible for Editor in 12.21 ms, found 18 plugins.
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 11.23 ms, found 18 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -161,50 +161,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.463 seconds
-Domain Reload Profiling: 955ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (76ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (367ms)
-		LoadAssemblies (213ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (152ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (463ms)
+	FinalizeReload (464ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
+		SetupLoadedEditorAssemblies (354ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (176ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 10.02 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 16.68 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 5017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 131 unused Assets / (373.5 KB). Loaded Objects now: 5490.
-Memory consumption went from 220.6 MB to 220.2 MB.
-Total: 3.221700 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.722100 ms  DeleteObjects: 0.180000 ms)
+Unloading 131 unused Assets / (412.8 KB). Loaded Objects now: 5497.
+Memory consumption went from 220.3 MB to 219.9 MB.
+Total: 4.312500 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.158300 ms MarkObjects: 3.447800 ms  DeleteObjects: 0.282600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -220,80 +220,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1647593.102925 seconds.
-  path: Assets/Material X.mat
-  artifactKey: Guid(9286c3cb7b6f54a4caa96819cc2f9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material X.mat using Guid(9286c3cb7b6f54a4caa96819cc2f9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adba527b60d578dec8cfce6198ca8d96') in 0.003174 seconds
-Number of updated asset objects reloaded before import = 50
-Number of asset objects unloaded after import = 1
+  Time since last request: 1649314.153058 seconds.
+  path: Assets/Senmag/logo-04_transparent_500px.png
+  artifactKey: Guid(45352b14a4d10694d92e7e0281248f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Senmag/logo-04_transparent_500px.png using Guid(45352b14a4d10694d92e7e0281248f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e7b9f39e12dfb2b3ad9c75701e145c') in 0.007823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Material Z.mat
-  artifactKey: Guid(cb40f264bc0fb4b919238d631824b0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material Z.mat using Guid(cb40f264bc0fb4b919238d631824b0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e563f8f93136243ee6976f02282300') in 0.000776 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Senmag
+  artifactKey: Guid(3ede344dbf1894441847db7f53744de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Senmag using Guid(3ede344dbf1894441847db7f53744de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40e641b3035b73b207fec5a6b64462a') in 0.000371 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(fe06b91f1c6335747867e671cd242fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(fe06b91f1c6335747867e671cd242fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c707e87a14ad381f6f24247027386e4') in 0.000957 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Senmag/Prefab_ButtonCanvas.prefab
+  artifactKey: Guid(6eaea2303544e6e4d8aad6e77955e581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Senmag/Prefab_ButtonCanvas.prefab using Guid(6eaea2303544e6e4d8aad6e77955e581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba2bed83004eeba13ce9cc2ced5677a') in 0.003230 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Prepare
 Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 12.21 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 12.88 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (329.1 KB). Loaded Objects now: 5496.
-Memory consumption went from 107.8 MB to 107.5 MB.
-Total: 2.537500 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.137100 ms  DeleteObjects: 0.051500 ms)
+Unloading 3 unused Assets / (330.0 KB). Loaded Objects now: 5498.
+Memory consumption went from 109.8 MB to 109.5 MB.
+Total: 2.878300 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.302800 ms  DeleteObjects: 0.100200 ms)
 
-
-=================================================================
-	Native Crash Reporting
-=================================================================
-Got a UNKNOWN while executing native code. This usually indicates
-a fatal error in the mono runtime or one of the native libraries 
-used by your application.
-=================================================================
-
-=================================================================
-	Managed Stacktrace:
-=================================================================
-=================================================================
-Received signal SIGSEGV
-Obtained 27 stack frames
-0x00007ff7dceb0e73 (Unity) keywords::KeywordRemap::Init
-0x00007ff7dceb729a (Unity) ShaderLab::IntShader::CreateKeywordRemap
-0x00007ff7dceb9aa4 (Unity) ShaderLab::IntShader::ResolveFallback
-0x00007ff7dce1890f (Unity) ShaderFromSerializedShaderMainThread
-0x00007ff7de8e2e80 (Unity) Shader::CreateFromParsedForm
-0x00007ff7de8e1f10 (Unity) Shader::AwakeFromLoad
-0x00007ff7dd1b3d0d (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x00007ff7dd1b4ce1 (Unity) AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad
-0x00007ff7dd1b4950 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks
-0x00007ff7dd18613f (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x00007ff7dd186a60 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x00007ff7dd187bdb (Unity) PersistentManager::LoadObjects
-0x00007ff7de5977d6 (Unity) ReloadAssetIfLoaded
-0x00007ff7de55fab6 (Unity) ReloadUpdatedAssets
-0x00007ff7de553e6a (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
-0x00007ff7de58d842 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff7de5797ee (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff7de57b454 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff7de58bbec (Unity) IOService::Run
-0x00007ff7de5603af (Unity) AssetImportWorkerClient::Run
-0x00007ff7de52af67 (Unity) RunAssetImportWorkerClientV2
-0x00007ff7de52afeb (Unity) RunAssetImporterV2
-0x00007ff7ddd2eca1 (Unity) Application::InitializeProject
-0x00007ff7de1b50c5 (Unity) WinMain
-0x00007ff7df59e87e (Unity) __scrt_common_main_seh
-0x00007ffca81be8d7 (KERNEL32) BaseThreadInitThunk
-0x00007ffca92fc34c (ntdll) RtlUserThreadStart
-
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
