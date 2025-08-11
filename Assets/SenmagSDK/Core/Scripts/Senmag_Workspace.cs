@@ -42,7 +42,7 @@ namespace SenmagHaptic
 
 
 
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
 
     [CustomEditor(typeof(Senmag_Workspace))]
     public class Senmag_WorkspaceEditor : Editor
@@ -92,10 +92,16 @@ namespace SenmagHaptic
                 myScript.physicsFramerate = EditorGUILayout.FloatField("Physics FrameRate", myScript.physicsFramerate);
                 myScript.physicsIterations = EditorGUILayout.IntField("Physics Iterations", myScript.physicsIterations);
                 myScript.hapticStiffness = EditorGUILayout.FloatField("Haptic Stiffness", myScript.hapticStiffness);
+
+                myScript.hapticDamping = EditorGUILayout.FloatField("Haptic Damping", myScript.hapticDamping);
+
+
+
                 myScript.cursorMass = EditorGUILayout.FloatField("Cursor Mass", myScript.cursorMass);
                 myScript.spatialMultiplier = EditorGUILayout.FloatField("Position Multiplier", myScript.spatialMultiplier);
                 myScript.maximumForce = EditorGUILayout.FloatField("Max Force", myScript.maximumForce);
-                myScript.positionFilterStrength = EditorGUILayout.FloatField("Position Filter", myScript.positionFilterStrength);
+                myScript.positionFilterStrength = EditorGUILayout.FloatField("Position speed", myScript.positionFilterStrength);
+                myScript.orientationFilterStrength = EditorGUILayout.FloatField("Orientation speed", myScript.orientationFilterStrength);
 
             }
             EditorGUI.EndFoldoutHeaderGroup();
@@ -106,7 +112,7 @@ namespace SenmagHaptic
                 myScript.defaultCursorModel = (GameObject)EditorGUILayout.ObjectField("Default Cursor Model", myScript.defaultCursorModel, typeof(GameObject), true);
                 myScript.defaultRightClickMenu = (GameObject)EditorGUILayout.ObjectField("Default Menu Prefab", myScript.defaultRightClickMenu, typeof(GameObject), true);
 
-                
+
                 myScript.teleportThreshold = EditorGUILayout.FloatField("Cursor Teleport Threshold", myScript.teleportThreshold);
                 myScript.cursorScale = EditorGUILayout.FloatField("Cursor Scale", myScript.cursorScale);
                 myScript.cursorFrictionStatic = EditorGUILayout.FloatField("Cursor Static Friction", myScript.cursorFrictionStatic);
@@ -119,12 +125,12 @@ namespace SenmagHaptic
             EditorGUI.EndFoldoutHeaderGroup();
         }
     }
-    #endif
+#endif
 
 
     public class Senmag_Workspace : MonoBehaviour
     {
-//        public Senmag_Server osenmagServer = new Senmag_Server();
+        //        public Senmag_Server osenmagServer = new Senmag_Server();
         public Senmag_DeviceManager deviceManager = new Senmag_DeviceManager();
 
         Thread osocketThread;// = new Thread;
@@ -140,10 +146,12 @@ namespace SenmagHaptic
 
         [Header("Haptics Settings")]
         public float positionFilterStrength = 1.0f;     //lower value is a stronger filter
+        public float orientationFilterStrength = 1f;
         public float maximumForce = 1000;
         public float physicsFramerate = 400;
         public int physicsIterations = 15;
-        public float hapticStiffness = 1;
+        public float hapticStiffness = 2;
+        public float hapticDamping = 0.2f;
         public float spatialMultiplier = 10;
 
         [Header("Cursor Settings")]
@@ -189,7 +197,7 @@ namespace SenmagHaptic
             oappRunning = true;                                             //flag app running
 
             //serach for any compatible devices
-            if (useDirectConnect)                                           
+            if (useDirectConnect)
             {
                 deviceManager.scanForUSBDevices();
             }
@@ -235,7 +243,7 @@ namespace SenmagHaptic
 
             deviceManager.newDeviceMonitorTask();
 
-            
+
             if (Time.realtimeSinceStartup - lastAutoSearchTime > 1)
             {
                 lastAutoSearchTime = Time.realtimeSinceStartup;
@@ -266,7 +274,7 @@ namespace SenmagHaptic
 
         void FixedUpdate()
         {
-            
+
             if (oupdatedForces == false)        //if no collisions have triggered a force update, send an update with zeros
             {
                 updateCursorForces(0);
@@ -293,6 +301,7 @@ namespace SenmagHaptic
             dev.cursor.AddComponent<Senmag_HapticCursor>();
             dev.cursor.GetComponent<Senmag_HapticCursor>().generateCursor(this.gameObject, defaultCursorModel, new string(dev.usbComms.deviceName), dev.deviceStatus, cursorScale, cursorFrictionStatic, cursorFrictionDynamic);
             dev.cursor.GetComponent<Senmag_HapticCursor>().setPositionFilterStrength(positionFilterStrength);
+            dev.cursor.GetComponent<Senmag_HapticCursor>().setOrientationFilterStrength(orientationFilterStrength);
             dev.cursor.GetComponent<Senmag_HapticCursor>().cursorTeleportThreshold = teleportThreshold;
         }
 
@@ -300,15 +309,15 @@ namespace SenmagHaptic
         {
             if (useDirectConnect)
             {
-                for(int x = 0; x < deviceManager.d2xxDevices.Count; x++)
+                for (int x = 0; x < deviceManager.d2xxDevices.Count; x++)
                 {
                     var dev = deviceManager.d2xxDevices[x];
-                    if(dev.newDevice == true)
+                    if (dev.newDevice == true)
                     {
                         dev.newDevice = false;
                         configureNewDevice(dev);
                     }
-                    
+
                     if (dev.newStatus == true)
                     {
                         dev.newStatus = false;
@@ -317,17 +326,17 @@ namespace SenmagHaptic
 
                 }
 
-                for(int x = 0; x < deviceManager.comDevices.Count; x++)
+                for (int x = 0; x < deviceManager.comDevices.Count; x++)
                 {
                     var dev = deviceManager.comDevices[x];
-                    if(dev.newDevice == true)
+                    if (dev.newDevice == true)
                     {
                         dev.newDevice = false;
                         configureNewDevice(dev);
                     }
-                    
+
                     if (dev.newStatus == true)
-                    { 
+                    {
                         dev.newStatus = false;
                         dev.cursor.GetComponent<Senmag_HapticCursor>().setState(dev.deviceStatus, spatialMultiplier);
                     }
@@ -363,13 +372,24 @@ namespace SenmagHaptic
         int startDelay = 100;
         public void updateCursorForces(int sendZeros)
         {
-            foreach(SenmagDevice dev in deviceManager.d2xxDevices)
+            foreach (SenmagDevice dev in deviceManager.d2xxDevices)
             {
                 if (dev.newDevice == false)
-                {       
+                {
                     //make sure the cursor has been generated first...
+                    Vector3 lastForce = new Vector3(dev.deviceTargets.targetForce[0], dev.deviceTargets.targetForce[1], dev.deviceTargets.targetForce[2]);
+
+
                     Vector3 displacement = dev.cursor.GetComponent<Senmag_HapticCursor>().getCurrentForce();
                     displacement *= 100.0f * hapticStiffness / spatialMultiplier;
+
+
+                    Vector3 damping = (displacement - lastForce) * hapticDamping;
+
+                    displacement -= damping;
+
+                    //displacement += hapticDamping * dev.cursor.GetComponent<Senmag_HapticCursor>().getCurrentDamping(hapticDampingFilter);
+
 
                     dev.deviceTargets.targetForce[0] = displacement.x;
                     dev.deviceTargets.targetForce[1] = displacement.y;
@@ -382,7 +402,7 @@ namespace SenmagHaptic
             {
                 var dev = deviceManager.comDevices[x];
                 if (dev.newDevice == false)
-                {       
+                {
                     //make sure the cursor has been generated first...
                     Vector3 displacement = dev.cursor.GetComponent<Senmag_HapticCursor>().getCurrentForce();
                     displacement *= 100.0f * hapticStiffness / spatialMultiplier;
