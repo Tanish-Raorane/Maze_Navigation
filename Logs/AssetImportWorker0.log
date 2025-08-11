@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ci24393/Downloads/Maze_Navigation
+C:/Users/mk24439/OneDrive - University of Bristol/Documents/GitHub/Maze_Navigation
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51226
-Successfully changed project path to: C:/Users/ci24393/Downloads/Maze_Navigation
-C:/Users/ci24393/Downloads/Maze_Navigation
+58590
+Successfully changed project path to: C:/Users/mk24439/OneDrive - University of Bristol/Documents/GitHub/Maze_Navigation
+C:/Users/mk24439/OneDrive - University of Bristol/Documents/GitHub/Maze_Navigation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/ci24393/Downloads/Maze_Navigation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11412] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 2634695493 [EditorId] 2634695493 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27384] Host "[IP] 137.222.159.77 [Port] 0 [Flags] 2 [Guid] 3487553207 [EditorId] 3487553207 [Version] 1048832 [Id] WindowsEditor(7,IT161119) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11412] Host "[IP] 137.222.159.47 [Port] 0 [Flags] 2 [Guid] 2634695493 [EditorId] 2634695493 [Version] 1048832 [Id] WindowsEditor(7,IT161121) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27384] Host "[IP] 137.222.159.77 [Port] 0 [Flags] 2 [Guid] 3487553207 [EditorId] 3487553207 [Version] 1048832 [Id] WindowsEditor(7,IT161119) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 14.46 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
+Refreshing native plugins compatible for Editor in 1746.00 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ci24393/Downloads/Maze_Navigation/Assets
+[Subsystems] Discovering subsystems at path C:/Users/mk24439/OneDrive - University of Bristol/Documents/GitHub/Maze_Navigation/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -77,46 +77,46 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011156 seconds.
-- Loaded All Assemblies, in  0.228 seconds
+Registered in 0.524431 seconds.
+- Loaded All Assemblies, in  4.991 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 266 ms
+Android Extension - Scanning For ADB Devices 279 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.463 seconds
-Domain Reload Profiling: 689ms
-	BeginReloadAssembly (61ms)
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 5668ms
+	BeginReloadAssembly (3574ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (137ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (95ms)
-		LoadAssemblies (60ms)
+	initialDomainReloadingComplete (565ms)
+	LoadAllAssembliesAndSetupDomain (705ms)
+		LoadAssemblies (3576ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (693ms)
+			TypeCache.Refresh (692ms)
+				TypeCache.ScanAssembly (684ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (463ms)
+	FinalizeReload (682ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
+		SetupLoadedEditorAssemblies (645ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (354ms)
+			InitializePlatformSupportModulesInManaged (561ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (50ms)
+			ProcessInitializeOnLoadAttributes (57ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -128,8 +128,8 @@ Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D fi
 
 Please note that FBX files exported from Cinema4D are still supported.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.479 seconds
-Refreshing native plugins compatible for Editor in 9.98 ms, found 18 plugins.
+- Loaded All Assemblies, in  9.552 seconds
+Refreshing native plugins compatible for Editor in 11.42 ms, found 18 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -161,164 +161,74 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.473 seconds
-Domain Reload Profiling: 948ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  0.513 seconds
+Domain Reload Profiling: 10062ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
-	RebuildCommonClasses (19ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (353ms)
-		LoadAssemblies (203ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (9404ms)
+		LoadAssemblies (8921ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (162ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (473ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (510ms)
+				TypeCache.ScanAssembly (464ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (514ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (405ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (176ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 10.34 ms, found 18 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 12.54 ms, found 18 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 5017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 131 unused Assets / (412.8 KB). Loaded Objects now: 5497.
-Memory consumption went from 220.3 MB to 219.9 MB.
-Total: 2.743300 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.241800 ms  DeleteObjects: 0.175300 ms)
+Unloading 5407 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 134 unused Assets / (375.0 KB). Loaded Objects now: 5885.
+Memory consumption went from 230.0 MB to 229.6 MB.
+Total: 2.836300 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.312500 ms  DeleteObjects: 0.182600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1650050.683432 seconds.
-  path: Assets/Scenes/TestMaze.unity
-  artifactKey: Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestMaze.unity using Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00684515e1a515673f66088bd1cbe5a3') in 0.002067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.853819 seconds.
-  path: Assets/Scenes/AWE_Demo.unity
-  artifactKey: Guid(2b5dd23a20beaeb4ea8c3372d83a31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AWE_Demo.unity using Guid(2b5dd23a20beaeb4ea8c3372d83a31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00389ed6cfd3fd5f22bbdadb843cefa') in 0.000419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.631037 seconds.
-  path: Assets/Scenes/TestMaze.unity
-  artifactKey: Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestMaze.unity using Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c41368aa4653199919593dca35fa029') in 0.000412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Assets/models/RobotArm/Rmk3.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.471 seconds
-Refreshing native plugins compatible for Editor in 11.78 ms, found 18 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.752 seconds
-Domain Reload Profiling: 1219ms
-	BeginReloadAssembly (106ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (315ms)
-		LoadAssemblies (190ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (149ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (752ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 10.05 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4818 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 90 unused Assets / (381.8 KB). Loaded Objects now: 5504.
-Memory consumption went from 184.1 MB to 183.8 MB.
-Total: 2.546500 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.149800 ms  DeleteObjects: 0.102000 ms)
+Refreshing native plugins compatible for Editor in 11.52 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 5885.
+Memory consumption went from 114.2 MB to 113.9 MB.
+Total: 2.521700 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.126700 ms  DeleteObjects: 0.049700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -337,265 +247,945 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 522.855161 seconds.
-  path: Assets/Scenes/TestMaze.unity
-  artifactKey: Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestMaze.unity using Guid(f83934c4a47bb3440a771631581038c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f92e1ae54ee26cb17c53c8c8a4e0692') in 0.005064 seconds
+  Time since last request: 960515.933777 seconds.
+  path: Assets/Scenes/hospital maze.unity
+  artifactKey: Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/hospital maze.unity using Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd289d001562db00076ae94341bedbe') in 0.005263 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 213.891225 seconds.
-  path: Assets/materials
-  artifactKey: Guid(c89fddbd3f99b4b4abc537dbd096f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials using Guid(c89fddbd3f99b4b4abc537dbd096f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e375bfe9bd0acf99788e1d1efd684918') in 0.000583 seconds
+  Time since last request: 30.852390 seconds.
+  path: Assets/Scenes/retarded asylum.unity
+  artifactKey: Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/retarded asylum.unity using Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70810346aba894331ced5e17c66b1d3d') in 0.000452 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.083323 seconds.
-  path: Assets/materials/New Material.mat
-  artifactKey: Guid(a36d3c23b03b05e40aa5994df536e9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material.mat using Guid(a36d3c23b03b05e40aa5994df536e9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1096c16346f8441322eba92973afc4e') in 0.001768 seconds
+  Time since last request: 12.012135 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(bf2d7754f82b02649bfcf41c257078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(bf2d7754f82b02649bfcf41c257078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7985d3ebab196a3dce9ae2855434ed4') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.817554 seconds.
+  path: Assets/Scenes/asylum materials
+  artifactKey: Guid(7ea9e41993eeed54782ffaa35c058126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials using Guid(7ea9e41993eeed54782ffaa35c058126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f92f16bd5a3bbf9a1c905e4d0e9a4f') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 92.884967 seconds.
+  path: Assets/Scenes/asylum materials/hospital maze.fbx
+  artifactKey: Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/hospital maze.fbx using Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6133fd1ecb3916fd32eb30f04c66d22d') in 0.094886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 626
+========================================================================
+Received Import Request.
+  Time since last request: 298.313478 seconds.
+  path: Assets/Scenes/asylum materials/hospital maze.fbx
+  artifactKey: Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/hospital maze.fbx using Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b314c9b252c915916b573e9ea1715d1') in 0.093064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 626
+========================================================================
+Received Import Request.
+  Time since last request: 471.439130 seconds.
+  path: Assets/Scenes/asylum materials/hospital maze.fbx
+  artifactKey: Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/hospital maze.fbx using Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d354a764f02b71f98de0cf1f1a5753') in 0.054517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 610
+========================================================================
+Received Import Request.
+  Time since last request: 14.146657 seconds.
+  path: Assets/Scenes/asylum materials/textures
+  artifactKey: Guid(d9fe302ee77b7c34e84df085286fee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures using Guid(d9fe302ee77b7c34e84df085286fee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0409fdaa67b077ed84f08f9ee5948550') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 51
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091517 seconds.
+  path: Assets/Scenes/asylum materials/textures/aerial_rocks_04_diff_4k.jpg
+  artifactKey: Guid(f41566120f6c59a42867cd301c82c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/aerial_rocks_04_diff_4k.jpg using Guid(f41566120f6c59a42867cd301c82c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b1e0d7f8a92aefcd91d268c2b5593e') in 0.002050 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006067 seconds.
-  path: Assets/materials/New Material 2.mat
-  artifactKey: Guid(db9ca40f0603da7429d06f5274e079f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 2.mat using Guid(db9ca40f0603da7429d06f5274e079f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4ef0ec8c78c54a879910bea05686e6') in 0.000840 seconds
+  Time since last request: 0.004153 seconds.
+  path: Assets/Scenes/asylum materials/textures/aerial_rocks_04_nor_gl_4k.exr
+  artifactKey: Guid(e051aadeabd8fa44f9978e0766321ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/aerial_rocks_04_nor_gl_4k.exr using Guid(e051aadeabd8fa44f9978e0766321ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95a288b5b754d0dd5385057e7062793') in 0.003018 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005483 seconds.
-  path: Assets/materials/New Material 3.mat
-  artifactKey: Guid(52ce3e77704a37644baaecb7e6d733d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 3.mat using Guid(52ce3e77704a37644baaecb7e6d733d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225aeb0f9efee394fac48be510ff6d48') in 0.000783 seconds
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/asylum materials/textures/aerial_rocks_04_rough_4k.jpg
+  artifactKey: Guid(8eff29f68da62e74ba260af6ff16ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/aerial_rocks_04_rough_4k.jpg using Guid(8eff29f68da62e74ba260af6ff16ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccf07b2224659158b9e175ea0787328') in 0.001630 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006998 seconds.
-  path: Assets/materials/New Material 4.mat
-  artifactKey: Guid(2d6ac5c3f64748b4fa30896621d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 4.mat using Guid(2d6ac5c3f64748b4fa30896621d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3e6d2c126367c0f2bb7bc708528ba9') in 0.000868 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/cracked_concrete_nor_gl_4k.exr
+  artifactKey: Guid(173ce65fbe272f443a5f116d5ddfbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/cracked_concrete_nor_gl_4k.exr using Guid(173ce65fbe272f443a5f116d5ddfbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6792ddc9235400f876b7be9d7192309d') in 0.008940 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004211 seconds.
-  path: Assets/materials/New Material 5.mat
-  artifactKey: Guid(f8c4caf5469cb6440a3963dda4f75cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 5.mat using Guid(f8c4caf5469cb6440a3963dda4f75cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a38313862183f73c08be2b83d71b969') in 0.000737 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_AO.jpg
+  artifactKey: Guid(959286f689d720545becec6377b3bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_AO.jpg using Guid(959286f689d720545becec6377b3bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f59039c18d56260dc0aca406069094') in 0.001772 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004363 seconds.
-  path: Assets/materials/New Material 6.mat
-  artifactKey: Guid(7e8ac6339a52ce94a83372413f1f35ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 6.mat using Guid(7e8ac6339a52ce94a83372413f1f35ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328782bded5becd10f0183427b6ebcd2') in 0.000740 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_metallic.jpg
+  artifactKey: Guid(505014d75c9728f4080f1de68562cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_metallic.jpg using Guid(505014d75c9728f4080f1de68562cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8a13554f4ef3ea43a3173296c63f71') in 0.002105 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003502 seconds.
-  path: Assets/materials/New Material 7.mat
-  artifactKey: Guid(e325a3eb400cabc4aba9275b789309e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material 7.mat using Guid(e325a3eb400cabc4aba9275b789309e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f68c37de1b157040e9f539b4bddf1e') in 0.000720 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/cracked_concrete_diff_4k.jpg
+  artifactKey: Guid(4b36e758cd4223147ac076259cdf44b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/cracked_concrete_diff_4k.jpg using Guid(4b36e758cd4223147ac076259cdf44b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff500e98dc9ece31972964774f63eb17') in 0.007403 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003411 seconds.
-  path: Assets/materials/New Physic Material 1.physicMaterial
-  artifactKey: Guid(070b880c92262c44db0b5fe37a0e81e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Physic Material 1.physicMaterial using Guid(070b880c92262c44db0b5fe37a0e81e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13df3e80b083f2d7a563301c3f21d63') in 0.000702 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_emissive.jpg
+  artifactKey: Guid(4a802de82595fb240a4341c716feb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Fluorescent_Light_MTL_emissive.jpg using Guid(4a802de82595fb240a4341c716feb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58bdceecd071b72918056ae478380a3') in 0.008186 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.004093 seconds.
-  path: Assets/materials/Robot.mat
-  artifactKey: Guid(4c6391b792eb0a34b8442beb12b30808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Robot.mat using Guid(4c6391b792eb0a34b8442beb12b30808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57589dae410dde1e2b4b74002201721a') in 0.000794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001093 seconds.
-  path: Assets/materials/RobotGripper.mat
-  artifactKey: Guid(41860fad42a0e2b4cb66762cf0c923e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/RobotGripper.mat using Guid(41860fad42a0e2b4cb66762cf0c923e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a5234dc40f7a9a307c30421f6ce77d') in 0.000732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.501744 seconds.
-  path: Assets/materials/RobotGripper.physicMaterial
-  artifactKey: Guid(2354c240c41bfc64685caf86e9cd71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/RobotGripper.physicMaterial using Guid(2354c240c41bfc64685caf86e9cd71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afec92f8d1dbe9199b24040dd781e28') in 0.000839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.151455 seconds.
-  path: Assets/materials/slippery.physicMaterial
-  artifactKey: Guid(730f38b0a8d505845bc36b00f3afc1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/slippery.physicMaterial using Guid(730f38b0a8d505845bc36b00f3afc1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2bf080c39d00c5c12447442ca9eda4') in 0.000748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001543 seconds.
-  path: Assets/materials/teapot.mat
-  artifactKey: Guid(5ddd418b3c6aa1e469bb04b93199e8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/teapot.mat using Guid(5ddd418b3c6aa1e469bb04b93199e8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6989be15f52d398117ea5d98e0103be') in 0.000687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/materials/teapot.physicMaterial
-  artifactKey: Guid(8a039076fec3daf4093c32cf1319e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/teapot.physicMaterial using Guid(8a039076fec3daf4093c32cf1319e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d47452ea8f50d108950c2bb4c4132d') in 0.000636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.003483 seconds.
-  path: Assets/materials/test.mat
-  artifactKey: Guid(10ba98b094b423b46bdca83e6458e918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/test.mat using Guid(10ba98b094b423b46bdca83e6458e918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b70567ae185436f039de8d4951152c') in 0.000784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1770.944536 seconds.
-  path: Assets/MOAD/Missile/AIM-54 phoenix texture.jpeg
-  artifactKey: Guid(ea58eddc74f84fe48a8a95ff73b101d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOAD/Missile/AIM-54 phoenix texture.jpeg using Guid(ea58eddc74f84fe48a8a95ff73b101d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f9f9d5e27052ad23ea400c845115d') in 0.008018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.152777 seconds.
-  path: Assets/MOAD/Missile/Aim-54_Phoenix.obj
-  artifactKey: Guid(ada4abcdad0e19045801a5670086de4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOAD/Missile/Aim-54_Phoenix.obj using Guid(ada4abcdad0e19045801a5670086de4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6056289ad99a6ade3dce6ac0b1192e03') in 0.004309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/models/RobotArm/Rmk3.obj
-  artifactKey: Guid(578a8e69d10ccdd498a4da2c6a1f4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/RobotArm/Rmk3.obj using Guid(578a8e69d10ccdd498a4da2c6a1f4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d70d2f965aa6d665ec4000a51e1c64') in 0.036176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 117
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/MOAD/cursors/axis.obj
-  artifactKey: Guid(b29a6ecf2c2b76e4585b550ebbc3d6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOAD/cursors/axis.obj using Guid(b29a6ecf2c2b76e4585b550ebbc3d6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a307412d52e03a231ee0929a62115a') in 0.001282 seconds
+  path: Assets/Scenes/asylum materials/textures/Ground_Mat_4K_BaseColor.png
+  artifactKey: Guid(eec73d768a2d66c4b88a6f04f220a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Ground_Mat_4K_BaseColor.png using Guid(eec73d768a2d66c4b88a6f04f220a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462af6ff2df81c0853351f7812c213a') in 0.001753 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015280 seconds.
-  path: Assets/Office Environment Set/Models/Chair Corridor.FBX
-  artifactKey: Guid(be1e061ff679bef499efb68c6ef56aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Chair Corridor.FBX using Guid(be1e061ff679bef499efb68c6ef56aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8957b575fd4971fa903e5371f434822') in 0.001404 seconds
+  Time since last request: 0.038077 seconds.
+  path: Assets/Scenes/asylum materials/textures/Ground_Mat_4K_Normal.png
+  artifactKey: Guid(1907fb0e321efae449b985483a677662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Ground_Mat_4K_Normal.png using Guid(1907fb0e321efae449b985483a677662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836dc129811a72cbefe98c304dc42272') in 0.001857 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Office Environment Set/Models/Projektor.FBX
-  artifactKey: Guid(64a09f9a692741748b45e9c62fc8a2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Projektor.FBX using Guid(64a09f9a692741748b45e9c62fc8a2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf4822d93e2c45881df8fd844d0a1f5') in 0.001608 seconds
+  Time since last request: 0.011648 seconds.
+  path: Assets/Scenes/asylum materials/textures/Ground_Mat_4K_ROU.png
+  artifactKey: Guid(81970d7826546b347bbf5cb9d076f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Ground_Mat_4K_ROU.png using Guid(81970d7826546b347bbf5cb9d076f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecbb8d7a1a5eec7dd17783db88c2203') in 0.001738 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004033 seconds.
-  path: Assets/Office Environment Set/Models/LCd.FBX
-  artifactKey: Guid(f7866a6f2470a4c46bebb3c538249cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/LCd.FBX using Guid(f7866a6f2470a4c46bebb3c538249cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b92a9c151254a7cadfe1597bb79a5f') in 0.001140 seconds
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/asylum materials/textures/I.V._drip_Chair_Metallic.jpg
+  artifactKey: Guid(82546ec9aa954554e966faabea5513c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/I.V._drip_Chair_Metallic.jpg using Guid(82546ec9aa954554e966faabea5513c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b604d745b4904819af7ac28ed413afb0') in 0.001674 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004608 seconds.
-  path: Assets/Office Environment Set/Models/Wc set.FBX
-  artifactKey: Guid(b5aab8e086a40c344b4079fb896f5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Wc set.FBX using Guid(b5aab8e086a40c344b4079fb896f5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4ad37ad26fa6d1f9b5c6d8503fe3b7') in 0.003939 seconds
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/textures/I.V._drip_Chair_Roughness.jpg
+  artifactKey: Guid(b73e85d8660597c4ab28a5ec7aec85ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/I.V._drip_Chair_Roughness.jpg using Guid(b73e85d8660597c4ab28a5ec7aec85ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0cc72a9225b7478f63ad6fd21d4642') in 0.001648 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 123
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002062 seconds.
-  path: Assets/Office Environment Set/Models/Running_picture.FBX
-  artifactKey: Guid(77188c5c3f954d547830904a5cd95fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Running_picture.FBX using Guid(77188c5c3f954d547830904a5cd95fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7985f3886447bf590975c13ee931165c') in 0.001788 seconds
+  Time since last request: 0.004409 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_0.jpg
+  artifactKey: Guid(5e27f2b5771e537468c98c2ea2b3d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_0.jpg using Guid(5e27f2b5771e537468c98c2ea2b3d237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25763bbfd5de00eb26e87712b49762a') in 0.001667 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002939 seconds.
-  path: Assets/Office Environment Set/Models/refrigerator.FBX
-  artifactKey: Guid(6e62d4f8a684fb64c8017988b8b2d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/refrigerator.FBX using Guid(6e62d4f8a684fb64c8017988b8b2d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8a15b0788745b0d0451f1cfe1e9595') in 0.001359 seconds
+  Time since last request: 0.008154 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_1.png
+  artifactKey: Guid(f608aa7404b15ef45a2bb7eac79befbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_1.png using Guid(f608aa7404b15ef45a2bb7eac79befbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79cfb60628761fe399cdefd91ab64fd') in 0.002541 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003618 seconds.
-  path: Assets/Office Environment Set/Models/twotowers.FBX
-  artifactKey: Guid(b98118f2d3be06b49a9abee4bc55a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/twotowers.FBX using Guid(b98118f2d3be06b49a9abee4bc55a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18211f0073aa1a5ae685d1a6506fd41') in 0.001051 seconds
+  Time since last request: 0.004428 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_3.jpg
+  artifactKey: Guid(464a135af3c08214bbae14c849c192de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_3.jpg using Guid(464a135af3c08214bbae14c849c192de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e963e0d8f92cece9e64118beae2a44f') in 0.001227 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003705 seconds.
-  path: Assets/Office Environment Set/Models/MKTABDD/Office.FBX
-  artifactKey: Guid(4750ef9b841b51043bb2b108260fe8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/MKTABDD/Office.FBX using Guid(4750ef9b841b51043bb2b108260fe8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476fcbe68d4144f85e3bf63683fc7929') in 0.001561 seconds
+  Time since last request: 0.005509 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_5.png
+  artifactKey: Guid(32ee5e82042a0bc4194d77a5b3f11db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_5.png using Guid(32ee5e82042a0bc4194d77a5b3f11db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4916ba38a7ae42104e363bc25a8c5d27') in 0.001302 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006644 seconds.
-  path: Assets/Office Environment Set/Models/Moving Chair.FBX
-  artifactKey: Guid(a443ad2623ebf0043b5d1aba002cf5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Moving Chair.FBX using Guid(a443ad2623ebf0043b5d1aba002cf5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd914263dc2e4cbc31029c248eab601') in 0.003039 seconds
+  Time since last request: 0.005334 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_7.png
+  artifactKey: Guid(d0ae161c7a3293b48b6f82b54e4afb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_7.png using Guid(d0ae161c7a3293b48b6f82b54e4afb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd939b781e82498657e6e0bb300e6ac') in 0.001129 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003210 seconds.
-  path: Assets/Office Environment Set/Models/Chair.FBX
-  artifactKey: Guid(0785ccf613ad62b42acfc6c6227cdf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Chair.FBX using Guid(0785ccf613ad62b42acfc6c6227cdf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1ea4f015d44d84329bcef045c982c7') in 0.001726 seconds
+  Time since last request: 0.005140 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_9.jpg
+  artifactKey: Guid(5c591bac1742c1f44bc4f7a0be6e68b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_9.jpg using Guid(5c591bac1742c1f44bc4f7a0be6e68b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93af54b45aa43e8662249e378066f8c') in 0.001182 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004782 seconds.
-  path: Assets/Office Environment Set/Models/Fans.FBX
-  artifactKey: Guid(6d42e467c4133ea4d81f16cb8c04fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Fans.FBX using Guid(6d42e467c4133ea4d81f16cb8c04fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954808beaaabf539f1172e2a0899c868') in 0.002261 seconds
+  Time since last request: 0.005490 seconds.
+  path: Assets/Scenes/asylum materials/textures/Image_11.png
+  artifactKey: Guid(7f3d6dd229f6ff64abc9ea9b9b8df9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Image_11.png using Guid(7f3d6dd229f6ff64abc9ea9b9b8df9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ad24e8e0a27f7d15e7e4ee0c1b31a6') in 0.001192 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003347 seconds.
-  path: Assets/Office Environment Set/Models/Kitchen_set.FBX
-  artifactKey: Guid(d5df79f47668c744aabd50f504a07058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office Environment Set/Models/Kitchen_set.FBX using Guid(d5df79f47668c744aabd50f504a07058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a9052eb3955990fe13939de7564e6b') in 0.003621 seconds
+  Time since last request: 0.006476 seconds.
+  path: Assets/Scenes/asylum materials/textures/Leavs_Opacity.png
+  artifactKey: Guid(420011802eda6e64b8e73ac6364f509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Leavs_Opacity.png using Guid(420011802eda6e64b8e73ac6364f509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa372c68cbd5233dc444df94b6c3fe90') in 0.001378 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/M_DripChair.mat
+  artifactKey: Guid(e1d363976a0b0ef4ba021a43f763bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/M_DripChair.mat using Guid(e1d363976a0b0ef4ba021a43f763bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb97c47b4fa4b1a5cfb0df9823ab67a3') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/M_WallSmallv02_BaseColor.jpg
+  artifactKey: Guid(02f7ce1b7d92ed1458eb2a4da9641f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/M_WallSmallv02_BaseColor.jpg using Guid(02f7ce1b7d92ed1458eb2a4da9641f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0399a4504bcf406ebd522c84d87d20b1') in 0.011652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/M_WallSmallv02_Normal.jpg
+  artifactKey: Guid(d79bea3f486564b4994466a109d430b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/M_WallSmallv02_Normal.jpg using Guid(d79bea3f486564b4994466a109d430b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7f6a7336763aab4c10f9c96341f528') in 0.021418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/textures/Mattress_Low_Poly_BaseColor.jpg
+  artifactKey: Guid(9f635042176983e4885ff099e3655d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Mattress_Low_Poly_BaseColor.jpg using Guid(9f635042176983e4885ff099e3655d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337527d96aafa7978190d21df29d09fa') in 0.010971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/asylum materials/textures/Material_005.mat
+  artifactKey: Guid(0ac7cc242b3a2c94a921a633f6b671a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Material_005.mat using Guid(0ac7cc242b3a2c94a921a633f6b671a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee43c8565f6d264af7184e3f6750dd5') in 0.000831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/Mattress_Low_Poly_Roughness.jpg
+  artifactKey: Guid(413919c9f910f944eac47dcfb22d3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Mattress_Low_Poly_Roughness.jpg using Guid(413919c9f910f944eac47dcfb22d3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c1d649230cd405f843f93c150face1') in 0.001671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Material.002.mat
+  artifactKey: Guid(7f1694e5b75b1da49afb3c8f3176cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Material.002.mat using Guid(7f1694e5b75b1da49afb3c8f3176cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270cb181c5058e029177c2bee41ebd0b') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/textures/mossy_brick_diff_4k.jpg
+  artifactKey: Guid(dda5c670ea53923429e475d978f3ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/mossy_brick_diff_4k.jpg using Guid(dda5c670ea53923429e475d978f3ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66e2d7017e9c60eff2e6865ca4dbbbc') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/textures/M_WallSmallv02.mat
+  artifactKey: Guid(e48540ccf1cdb654da03098f407c3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/M_WallSmallv02.mat using Guid(e48540ccf1cdb654da03098f407c3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6d88eb68e39d36c84103564185ddbf') in 0.000850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/M_Mattress.mat
+  artifactKey: Guid(f8b813dbdc776b14ab1e8b9f6d243bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/M_Mattress.mat using Guid(f8b813dbdc776b14ab1e8b9f6d243bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197e96b32e818f627c0e624ec39be65e') in 0.000858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/mossy_brick_disp_4k.png
+  artifactKey: Guid(d7ccb1b50a0e05b4b8c84283b6bf8a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/mossy_brick_disp_4k.png using Guid(d7ccb1b50a0e05b4b8c84283b6bf8a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300041f03eccfed263b11c8947535cb9') in 0.001703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Material.001.mat
+  artifactKey: Guid(ab87271eeb3126b48ab1de19a7ce95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Material.001.mat using Guid(ab87271eeb3126b48ab1de19a7ce95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde24bad6caf710510c9385b35681de5') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/textures/Material_001.mat
+  artifactKey: Guid(40b5fb711ef665f49b979640d8cba7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Material_001.mat using Guid(40b5fb711ef665f49b979640d8cba7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cf221dc0227478413ff1912aa0c99b') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005002 seconds.
+  path: Assets/Scenes/asylum materials/textures/mossy_brick_rough_4k.exr
+  artifactKey: Guid(cfc7b6df7c3b34f4db981a15fc9d4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/mossy_brick_rough_4k.exr using Guid(cfc7b6df7c3b34f4db981a15fc9d4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f001838ac084b73db535d57e1a56cea') in 0.002467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006122 seconds.
+  path: Assets/Scenes/asylum materials/textures/poly_0_baseColor.jpeg
+  artifactKey: Guid(09a9db7ab6e7cc44eba88d336c217752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/poly_0_baseColor.jpeg using Guid(09a9db7ab6e7cc44eba88d336c217752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6fe88eb6a4bc6f6aa4fe2e41891f3f') in 0.001764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes/asylum materials/textures/poly_0_metallicRoughness.png
+  artifactKey: Guid(9fb066349996550419f53018dabba98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/poly_0_metallicRoughness.png using Guid(9fb066349996550419f53018dabba98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795b32e073f6e84003b4148d8785449a') in 0.001593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Props2_BaseColor.jpg
+  artifactKey: Guid(0a28fbcd16e45c14e85092a02e060278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Props2_BaseColor.jpg using Guid(0a28fbcd16e45c14e85092a02e060278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b71f425d393360423dbd7dc8dd7813') in 0.007045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/PropsBallons_BaseColor.jpg
+  artifactKey: Guid(f3576d50e7346184c8a69eaa19372916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/PropsBallons_BaseColor.jpg using Guid(f3576d50e7346184c8a69eaa19372916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d420bda0e6dce2d628171dc08ea3015') in 0.007023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/PropsBallons_Normal.jpg
+  artifactKey: Guid(7fb0274801afa1145bfd67bb97c05a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/PropsBallons_Normal.jpg using Guid(7fb0274801afa1145bfd67bb97c05a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed8ad677e7474d09c9f08e89b3f8f59') in 0.008387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/Props2_Roughness.jpg
+  artifactKey: Guid(80b84ad8a419ff94f9024a7f6f425d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Props2_Roughness.jpg using Guid(80b84ad8a419ff94f9024a7f6f425d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee127ee6d3a4937a3a2fbba4fad0a29e') in 0.001548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Scenes/asylum materials/textures/rostlinka12_2k_alfa.jpg
+  artifactKey: Guid(8f533982abf9a9a4a9e3aff8c68c1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/rostlinka12_2k_alfa.jpg using Guid(8f533982abf9a9a4a9e3aff8c68c1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec98c97c31be18cfa5ba93ec92b6c19') in 0.001541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002640 seconds.
+  path: Assets/Scenes/asylum materials/textures/rostlinka12_2k_difuse.jpg
+  artifactKey: Guid(5fc7a4adb9c6aa74dbfe7258171efb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/rostlinka12_2k_difuse.jpg using Guid(5fc7a4adb9c6aa74dbfe7258171efb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbd22c87c61f221b31027d6d34d0d29') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005373 seconds.
+  path: Assets/Scenes/asylum materials/textures/rostlinka_07c_alfa.jpg
+  artifactKey: Guid(3e2151fccc5125848a00112c2ed0846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/rostlinka_07c_alfa.jpg using Guid(3e2151fccc5125848a00112c2ed0846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2f846d7ef092d81997c823f451cde0') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004594 seconds.
+  path: Assets/Scenes/asylum materials/textures/stone_tiles_02_diff_4k.jpg
+  artifactKey: Guid(9e8fd80759d39414892b3c0439710efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/stone_tiles_02_diff_4k.jpg using Guid(9e8fd80759d39414892b3c0439710efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb54b7eeefc59fafc1e831eabcf5da3e') in 0.001805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005972 seconds.
+  path: Assets/Scenes/asylum materials/textures/stone_tiles_02_nor_gl_4k.exr
+  artifactKey: Guid(964eb78c0bb39ed4dad0ba03aec716ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/stone_tiles_02_nor_gl_4k.exr using Guid(964eb78c0bb39ed4dad0ba03aec716ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e830dc373ecd35660e98cdf098c72b') in 0.002386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004927 seconds.
+  path: Assets/Scenes/asylum materials/textures/TEX_Cabin_Winterlands_01_D_NMM.png
+  artifactKey: Guid(c9e53359c2a80be42bd1c713df309818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TEX_Cabin_Winterlands_01_D_NMM.png using Guid(c9e53359c2a80be42bd1c713df309818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a91bb86b5bd7a015bd4eb7421280bdc') in 0.001244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Scenes/asylum materials/textures/TEX_Cabin_Winterlands_Glass_01_D_A.png
+  artifactKey: Guid(537c0b7a8ecf9004591a3f1307c6dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TEX_Cabin_Winterlands_Glass_01_D_A.png using Guid(537c0b7a8ecf9004591a3f1307c6dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a957ffee358a38905c8200a5d44c7d1c') in 0.001014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Scenes/asylum materials/textures/Textur Diffuse.tif
+  artifactKey: Guid(aad8e8c65e37e084685fb4ef027e1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Textur Diffuse.tif using Guid(aad8e8c65e37e084685fb4ef027e1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7373d02dc358d37e0dc23acfcac2308c') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005126 seconds.
+  path: Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_BaseColor.png
+  artifactKey: Guid(cbcbf8742e5f9ae48bb99adad727562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_BaseColor.png using Guid(cbcbf8742e5f9ae48bb99adad727562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61941a7cb24191389988fa760c09ece') in 0.001698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004923 seconds.
+  path: Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_Metallic.png
+  artifactKey: Guid(d8750b757fe986c46a62844aa37836d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_Metallic.png using Guid(d8750b757fe986c46a62844aa37836d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bcff24ecbd5f608f5977b2b5bee6fe') in 0.001753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005495 seconds.
+  path: Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_Roughness.png
+  artifactKey: Guid(1689abbfaae9d6748920e69cd9c94c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TexturePlane_GoldCoins01_Roughness.png using Guid(1689abbfaae9d6748920e69cd9c94c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b91791ae92ca47a6ef80ff05bcb1b3e') in 0.001745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/asylum materials/textures/TrashBDoorDesk_BaseColor.jpg
+  artifactKey: Guid(d82940703f84f854493920e90c232039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TrashBDoorDesk_BaseColor.jpg using Guid(d82940703f84f854493920e90c232039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a6f10e14b43540d6bfbc88de2b8143') in 0.007436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/textures/TrashBDoorDesk_Roughness.png
+  artifactKey: Guid(ab83faf30dc7ccb4093252bfa29f3df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/TrashBDoorDesk_Roughness.png using Guid(ab83faf30dc7ccb4093252bfa29f3df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d7f70a9d8985bcb6e02c4d04d8207b') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Scenes/asylum materials/textures/VFX_Square001.png
+  artifactKey: Guid(c836fa3e3fcd03a4cacc5b391cb4c4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/VFX_Square001.png using Guid(c836fa3e3fcd03a4cacc5b391cb4c4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a5f78b11116f9d0ae37f695cecf5c') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/textures/Сouch_BaseColor.jpg
+  artifactKey: Guid(2dc0906bd860f7744a677deac0fd6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Сouch_BaseColor.jpg using Guid(2dc0906bd860f7744a677deac0fd6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8a5220463d1dd0615eda01413c310') in 0.010596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/textures/Сouch_Roughness.jpg
+  artifactKey: Guid(83dfbb4419ee74c47a023418b4daed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/textures/Сouch_Roughness.jpg using Guid(83dfbb4419ee74c47a023418b4daed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154ac074891c997d8518d17a5c351163') in 0.001807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 59.247414 seconds.
+  path: Assets/Scenes/retarded asylum.unity
+  artifactKey: Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/retarded asylum.unity using Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e45f6f25bd4007264d5a13f20e59d2') in 0.001150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.828115 seconds.
+  path: Assets/Scenes/asylum materials/aerial_rocks_04_diff_4k.jpg
+  artifactKey: Guid(0db00fa775ee44b4c9cea5bc0b46440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/aerial_rocks_04_diff_4k.jpg using Guid(0db00fa775ee44b4c9cea5bc0b46440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c5afcb62f1366826e986f9e05e6418') in 0.002047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Image_2.png
+  artifactKey: Guid(2d2af984a080b93429a382fc87a615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_2.png using Guid(2d2af984a080b93429a382fc87a615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80640a2d579f68d7f67bbf6fea9f630') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Ground_Mat_4K_Normal.png
+  artifactKey: Guid(f9f9f6c77f35d6d47a5e569887ea7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Ground_Mat_4K_Normal.png using Guid(f9f9f6c77f35d6d47a5e569887ea7bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c023327e74a232fe5b30bf223e22537') in 0.001691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/Props2_Normal.jpg
+  artifactKey: Guid(d6f258846be491b4b8cea4afd53ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Props2_Normal.jpg using Guid(d6f258846be491b4b8cea4afd53ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4072dedd36820c07c17bd4d983a7819a') in 0.001584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Props2_BaseColor.jpg
+  artifactKey: Guid(787cbd83206dca14197acb6e82572592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Props2_BaseColor.jpg using Guid(787cbd83206dca14197acb6e82572592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2519b932d56933b826f435e129c0920a') in 0.001527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Scenes/asylum materials/stone_tiles_02_disp_4k.png
+  artifactKey: Guid(1e206f4a2f3c07449b1e0b60832bca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/stone_tiles_02_disp_4k.png using Guid(1e206f4a2f3c07449b1e0b60832bca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451a987194ac3b4d9ddb9dfe3188da22') in 0.001648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/asylum materials/I.V._drip_Chair_Roughness.jpg
+  artifactKey: Guid(cedad3307e13fa543ac93a09b2f8637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/I.V._drip_Chair_Roughness.jpg using Guid(cedad3307e13fa543ac93a09b2f8637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2134eddbb7ae5708b55486f9f9a5a361') in 0.001550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Trank_normal.tga.png
+  artifactKey: Guid(6903ffe852e05244498330967f370efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Trank_normal.tga.png using Guid(6903ffe852e05244498330967f370efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00a41ce947123451e092aca013f958b') in 0.001050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/TexturePlane_GoldCoins01_Height.png
+  artifactKey: Guid(eaec052c474aafc47b30a51f4c28ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/TexturePlane_GoldCoins01_Height.png using Guid(eaec052c474aafc47b30a51f4c28ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e2a66d42f0c20c4d0a5b4710c4ba98') in 0.001669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/asylum materials/Ground_Mat_4K_ROU.png
+  artifactKey: Guid(9a10c08769fe39e4aa220fde625da148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Ground_Mat_4K_ROU.png using Guid(9a10c08769fe39e4aa220fde625da148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f94cb5e5041dc829fe1e49b0b07f50') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/M_WallSmallv02_Roughness.jpg
+  artifactKey: Guid(204cebe53ecb6dd42935edb5ad305b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/M_WallSmallv02_Roughness.jpg using Guid(204cebe53ecb6dd42935edb5ad305b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee99a0ab163615c5912b5abc0cda73f') in 0.001765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/poly_0_baseColor.jpeg
+  artifactKey: Guid(3100b3c83ac575d4ba86f3468d6467be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/poly_0_baseColor.jpeg using Guid(3100b3c83ac575d4ba86f3468d6467be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2edc902cf2bc57d5e4c93aefb1effd') in 0.001733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/TEX_Cabin_Winterlands_01_D_NMM.png
+  artifactKey: Guid(cebb98ee19a5c594da687b6ef8b705cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/TEX_Cabin_Winterlands_01_D_NMM.png using Guid(cebb98ee19a5c594da687b6ef8b705cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a461cca4d0ecfea6ad5b62f09719fe') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/M_WallSmallv02_Metallic.jpg
+  artifactKey: Guid(f37cafcbcf1d3e84fb70fe7938c990bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/M_WallSmallv02_Metallic.jpg using Guid(f37cafcbcf1d3e84fb70fe7938c990bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8d1751943e658872737e77a58a42c2') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Fluorescent_Light_MTL_normal.png
+  artifactKey: Guid(bed169d9196868049b42f6077ce9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Fluorescent_Light_MTL_normal.png using Guid(bed169d9196868049b42f6077ce9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a625098b0ccb45313034f899c53e48d3') in 0.001428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/asylum materials/Mattress_Low_Poly_Metallic.jpg
+  artifactKey: Guid(b92f0e103f3ca67409552b9041fe3ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Mattress_Low_Poly_Metallic.jpg using Guid(b92f0e103f3ca67409552b9041fe3ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e9df8e9c68503bbc13af3da752cfa0') in 0.001425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/VFX_Square001.png
+  artifactKey: Guid(7cd83d0219f39434f9967bad867f1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/VFX_Square001.png using Guid(7cd83d0219f39434f9967bad867f1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc19b577c7f48170a43116bd374654ca') in 0.001352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/ground_close_04_basecolor.jpg
+  artifactKey: Guid(c60f0d1f35025c14591dfb1e073cab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/ground_close_04_basecolor.jpg using Guid(c60f0d1f35025c14591dfb1e073cab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e68ee87dca2dba78f3a063c7eee11b') in 0.001824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/asylum materials/rostlinka12_2k_difuse.jpg
+  artifactKey: Guid(32b935d97ea57ed4bb9d29960b2afa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/rostlinka12_2k_difuse.jpg using Guid(32b935d97ea57ed4bb9d29960b2afa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af34ec498af50072486e9c89da1740') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/aerial_rocks_04_rough_4k.jpg
+  artifactKey: Guid(904579fd7cf3848458173ca11663bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/aerial_rocks_04_rough_4k.jpg using Guid(904579fd7cf3848458173ca11663bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c2260d3ed7be7aa77041a795ac92ee') in 0.002142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/asylum materials/hospital maze.fbx
+  artifactKey: Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/hospital maze.fbx using Guid(8686479193a2eb741a20dccf9e76984e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a3a1c6219eb812df77598cd1732665') in 0.042959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 626
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/mossy_brick_diff_4k.jpg
+  artifactKey: Guid(51f3243348a40af4a92e0bf9d2477339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/mossy_brick_diff_4k.jpg using Guid(51f3243348a40af4a92e0bf9d2477339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d4b1c63d6f98a295ea6aaf5d0a5ce') in 0.001695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Ground_Mat_4K_BaseColor.png
+  artifactKey: Guid(2c752fe3e99a3ce4f97670fbdfed7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Ground_Mat_4K_BaseColor.png using Guid(2c752fe3e99a3ce4f97670fbdfed7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51d6c2049bee91ec526894a3b2b172c') in 0.001815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/asylum materials/Image_1.png
+  artifactKey: Guid(31014f129b5ac3246a73b3ea11902abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_1.png using Guid(31014f129b5ac3246a73b3ea11902abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb143e1471a6c0b1bb847449f9c81c96') in 0.000960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/M_WallSmallv02_BaseColor.jpg
+  artifactKey: Guid(0abcd08aee4ea6f47bb610e26d312183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/M_WallSmallv02_BaseColor.jpg using Guid(0abcd08aee4ea6f47bb610e26d312183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b336cfea5136297dbfb7b6849d8b3bf') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Image_9.jpg
+  artifactKey: Guid(d3d862e9c1bc6c7468f53b1a98ea1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_9.jpg using Guid(d3d862e9c1bc6c7468f53b1a98ea1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eb5fc8a31c7fc31573cd7f203531ab') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/marble_tiles_diff_4k.jpg
+  artifactKey: Guid(da7d20bceab9f7e4f92c7357284e341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/marble_tiles_diff_4k.jpg using Guid(da7d20bceab9f7e4f92c7357284e341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367268a181c1f7047602e58a2063ee2b') in 0.001386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/Mattress_Low_Poly_Normal.jpg
+  artifactKey: Guid(ad3b44562ee9e7944beca8dc84633867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Mattress_Low_Poly_Normal.jpg using Guid(ad3b44562ee9e7944beca8dc84633867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5c698584c7e649184423009bb9a0c4') in 0.001526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/I.V._drip_Chair_BaseColor.jpg
+  artifactKey: Guid(ddb83ee08e3535f4891b594a4e074e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/I.V._drip_Chair_BaseColor.jpg using Guid(ddb83ee08e3535f4891b594a4e074e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f33cdd3a6fa877f2404c9cd31f277') in 0.001605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/marble_tiles_nor_gl_4k.exr
+  artifactKey: Guid(3ebfe5e2ee9784846b9c648cf318d09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/marble_tiles_nor_gl_4k.exr using Guid(3ebfe5e2ee9784846b9c648cf318d09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a892abd407c88f337598949522faf38') in 0.002389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Сouch_Roughness.jpg
+  artifactKey: Guid(d1dc75efd097fd84294fb10c365f5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Сouch_Roughness.jpg using Guid(d1dc75efd097fd84294fb10c365f5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82c3a7b66c6c3af80c9af1c99f78ee8') in 0.001577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/Image_3.jpg
+  artifactKey: Guid(ec633bc1efbe88549bafd0e06f3d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_3.jpg using Guid(ec633bc1efbe88549bafd0e06f3d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7625cd0cb8012dc5831853398b9164') in 0.000999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Mattress_Low_Poly_Roughness.jpg
+  artifactKey: Guid(564181f159135354c89103fbf27676a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Mattress_Low_Poly_Roughness.jpg using Guid(564181f159135354c89103fbf27676a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4865cc1ccd989d8546a8726a5e8c0162') in 0.001548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Textur Opacity.tif
+  artifactKey: Guid(44a9f00ca5123924e97e99ff9dfea7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Textur Opacity.tif using Guid(44a9f00ca5123924e97e99ff9dfea7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660e9b690b6c98ad9e4f19616703cb30') in 0.001267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/asylum materials/Image_5.png
+  artifactKey: Guid(c4eb395192619444ea910d08d1cf45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_5.png using Guid(c4eb395192619444ea910d08d1cf45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6e8d1bd077fd0c7f6e477d689c85f0') in 0.000971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/TrashBDoorDesk_Roughness.png
+  artifactKey: Guid(4385e1781a83dc841a285b177eeb5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/TrashBDoorDesk_Roughness.png using Guid(4385e1781a83dc841a285b177eeb5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ede5e4bc606614f502e9048e3f5feb2') in 0.001899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/asylum materials/Image_11.png
+  artifactKey: Guid(626486c29e5dc7249ad4acf64ac2d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_11.png using Guid(626486c29e5dc7249ad4acf64ac2d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e68d31efd3e5c30f8cb7f21904cf016') in 0.001074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/asylum materials/rostlinka12_2k_alfa.jpg
+  artifactKey: Guid(8a6ea2f21d3cbd640ac44ae526b3fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/rostlinka12_2k_alfa.jpg using Guid(8a6ea2f21d3cbd640ac44ae526b3fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bae2f5cf285b17450d69323a291dc1') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/mossy_brick_disp_4k.png
+  artifactKey: Guid(51b667814fc74a54ab6b550dd23ed746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/mossy_brick_disp_4k.png using Guid(51b667814fc74a54ab6b550dd23ed746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1502a69bc08103c63a0f8ed7bd70d9db') in 0.001814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/PropsBallons_Metallic.jpg
+  artifactKey: Guid(86b3ea674c4087e4b81302606d55f633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/PropsBallons_Metallic.jpg using Guid(86b3ea674c4087e4b81302606d55f633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b414da2a87cfca1894388dd2acf97f') in 0.001646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/Textur Diffuse.tif
+  artifactKey: Guid(977c25ca2ece87f4d993872898f9a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Textur Diffuse.tif using Guid(977c25ca2ece87f4d993872898f9a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4256fc261cf0cfe3db9334e361034bb0') in 0.001104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/asylum materials/Fluorescent_Light_MTL_metallic.jpg
+  artifactKey: Guid(c75899524aa918c45bcf7c951606790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Fluorescent_Light_MTL_metallic.jpg using Guid(c75899524aa918c45bcf7c951606790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6513457e7fa999da8223f5af1cdb27ea') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/marble_tiles_disp_4k.png
+  artifactKey: Guid(b7eceae9c2a816f40994eb9a2d422f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/marble_tiles_disp_4k.png using Guid(b7eceae9c2a816f40994eb9a2d422f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa9587727537b493687555775cdb76d') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/asylum materials/Image_1.jpg
+  artifactKey: Guid(98291bcedfcf1234faffff1b13247eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Image_1.jpg using Guid(98291bcedfcf1234faffff1b13247eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23200af993a5399058436bbcf871981e') in 0.001581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.521322 seconds.
+  path: Assets/Scenes/asylum materials/cracked_concrete_nor_gl_4k.exr
+  artifactKey: Guid(8eb5915ffaf4d6d47bca42c92c1723a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/cracked_concrete_nor_gl_4k.exr using Guid(8eb5915ffaf4d6d47bca42c92c1723a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602042843c0464eb76ee5e3fbf8af05') in 0.002853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.065066 seconds.
+  path: Assets/Scenes/asylum materials/I.V._drip_Chair_Normal.jpg
+  artifactKey: Guid(a1a9578a7d96aa54aa9590b9b1f6f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/I.V._drip_Chair_Normal.jpg using Guid(a1a9578a7d96aa54aa9590b9b1f6f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44367bb9a81d632241144f5d14c03cd9') in 0.002414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021986 seconds.
+  path: Assets/Scenes/asylum materials/M_WallSmallv02_Normal.jpg
+  artifactKey: Guid(28d85558c2201cc41926ab3c601e0fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/M_WallSmallv02_Normal.jpg using Guid(28d85558c2201cc41926ab3c601e0fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7619f3d360e4a8f185853cd7223b6ea3') in 0.002685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/PropsBallons_Normal.jpg
+  artifactKey: Guid(8c048ba8dfc59544fa20cb1561c5896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/PropsBallons_Normal.jpg using Guid(8c048ba8dfc59544fa20cb1561c5896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b43aa1e296d7169fc950a6e840b2b2') in 0.004489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/asylum materials/Props2_Normal.jpg
+  artifactKey: Guid(d6f258846be491b4b8cea4afd53ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/Props2_Normal.jpg using Guid(d6f258846be491b4b8cea4afd53ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa9e2bed60a8ec19f07fd25012e090') in 0.002500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/asylum materials/TrashBDoorDesk_Normal.jpg
+  artifactKey: Guid(15935d785c47d05478808eb68f77e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/TrashBDoorDesk_Normal.jpg using Guid(15935d785c47d05478808eb68f77e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107139de8ce2a54adba2e8e8ec23fc79') in 0.002133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 245.118757 seconds.
+  path: Assets/Scenes/asylum materials/material
+  artifactKey: Guid(f363a3209ae27194eb794a79fbebf90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum materials/material using Guid(f363a3209ae27194eb794a79fbebf90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a437cf15574a90e0c2b8836466c3949') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 427.544388 seconds.
+  path: Assets/Scenes/asylum.unity
+  artifactKey: Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asylum.unity using Guid(f5e3f8687a021f34b8c27cc1840d5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e570ef8f91f442d5f26c67ad71f7064') in 0.000783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
