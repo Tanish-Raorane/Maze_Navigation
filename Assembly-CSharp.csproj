@@ -147,6 +147,7 @@
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_button_forcefield.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\uselessMachine.cs" />
     <Compile Include="Assets\sceneScripts\teapotCurling.cs" />
+    <Compile Include="Assets\Scenes\asylum materials\scripts\FluorescentFlicker.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaletteMenu.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectSpawner.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\turret.cs" />
