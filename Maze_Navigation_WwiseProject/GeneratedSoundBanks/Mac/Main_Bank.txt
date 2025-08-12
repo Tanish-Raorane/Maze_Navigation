@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2202212453	Play_AtmosphericMix			\Default Work Unit\Play_AtmosphericMix	
+	2962348544	Play_CreepyAmbienceLow			\Default Work Unit\Play_CreepyAmbienceLow	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51817183	AtmosphericMix	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\5E\{5EB5B258-C381-2E6D-57E3-55DC33E19D48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\AtmosphericMix		112896096
+	820883097	CreepyAmbienceLow	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\4B\{4BD40ED7-72CD-83D9-21A7-C6C277B02491}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CreepyAmbienceLow		1411296
+

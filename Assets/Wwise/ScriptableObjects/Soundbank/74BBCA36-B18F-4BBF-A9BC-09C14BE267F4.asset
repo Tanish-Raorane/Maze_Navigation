@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a9c58e37fb402e4fa41d0e95cbb187c, type: 3}
-  m_Name: C7F1E22B-5E4D-4CF0-856E-ACEEEBEB42B9
+  m_Name: 74BBCA36-B18F-4BBF-A9BC-09C14BE267F4
   m_EditorClassIdentifier: 
-  objectName: Main
-  id: 3161908922
-  guid: C7F1E22B-5E4D-4CF0-856E-ACEEEBEB42B9
+  objectName: Main_Bank
+  id: 3989171651
+  guid: 74BBCA36-B18F-4BBF-A9BC-09C14BE267F4

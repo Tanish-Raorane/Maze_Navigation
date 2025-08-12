@@ -11,6 +11,18 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_ATMOSPHERICMIX = 2202212453U;
+        static const AkUniqueID PLAY_CREEPYAMBIENCELOW = 2962348544U;
+    } // namespace EVENTS
+
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MAIN_BANK = 3989171651U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
         static const AkUniqueID ENVIRONMENT = 1229948536U;

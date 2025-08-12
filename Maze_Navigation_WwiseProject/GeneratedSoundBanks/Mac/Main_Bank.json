@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3989171651",
+    "Type": "User",
+    "GUID": "{74BBCA36-B18F-4BBF-A9BC-09C14BE267F4}",
+    "Language": "SFX",
+    "Hash": "{5515D236-4CD7-B7A8-B8B4-AA671318064C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Bank",
+    "ShortName": "Main_Bank",
+    "Path": "Main_Bank.bnk",
+    "Media": [
+     {
+      "Id": "51817183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AtmosphericMix.wav",
+      "CachePath": "5E/{5EB5B258-C381-2E6D-57E3-55DC33E19D48}.wem"
+     },
+     {
+      "Id": "820883097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CreepyAmbienceLow.wav",
+      "CachePath": "4B/{4BD40ED7-72CD-83D9-21A7-C6C277B02491}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2202212453",
+      "Name": "Play_AtmosphericMix",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AtmosphericMix",
+      "GUID": "{C99B7333-0131-4013-8A86-F7770C964951}",
+      "DurationType": "OneShot",
+      "DurationMin": "640",
+      "DurationMax": "640",
+      "MediaRefs": [
+       {
+        "Id": "51817183"
+       }
+      ]
+     },
+     {
+      "Id": "2962348544",
+      "Name": "Play_CreepyAmbienceLow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CreepyAmbienceLow",
+      "GUID": "{2DE0E84B-4221-496B-9B43-DBB354734500}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "820883097"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{98C187CD-AFF7-6C36-0C75-BB3EBBF06C14}"
+ }
+}

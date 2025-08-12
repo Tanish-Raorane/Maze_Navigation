@@ -94,8 +94,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f6c0f858f22a51429fd55a6891f081d8
     GuidInternal: 
-    m_lastTime: -8584465818731686124
-    List: []
+    m_lastTime: -8584465691843107811
+    List:
+    - name: Main_Bank
+      guid: 36cabb748fb1bf4ba9bc09c14be267f4
+      id: 3989171651
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f6c0f858f22a51429fd55a6891f081d8
+      - ElementName: Main_Bank
+        ObjectType: 7
+        guid: 36cabb748fb1bf4ba9bc09c14be267f4
+      Path: SoundBanks\Default Work Unit\Main_Bank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +122,93 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b0e8ffe9d8163e449e8f020cb168c7c6
     GuidInternal: 
-    m_lastTime: -8584465818731908049
-    List: []
+    m_lastTime: -8584465696153893770
+    List:
+    - name: Play_AtmosphericMix
+      guid: 33739bc9310113408a86f7770c964951
+      id: 2202212453
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_AtmosphericMix
+        ObjectType: 3
+        guid: 33739bc9310113408a86f7770c964951
+      Path: Events\Default Work Unit\Play_AtmosphericMix
+      maxAttenuation: 0
+      maxDuration: 640
+      minDuration: 640
+    - name: Play_CreepyAmbienceLow
+      guid: 4be8e02d21426b499b43dbb354734500
+      id: 2962348544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_CreepyAmbienceLow
+        ObjectType: 3
+        guid: 4be8e02d21426b499b43dbb354734500
+      Path: Events\Default Work Unit\Play_CreepyAmbienceLow
+      maxAttenuation: 0
+      maxDuration: 8
+      minDuration: 8
+    - name: Play_ModularBuzzing
+      guid: 1bd7e409c4454e46b2e8cfb63e8f6f24
+      id: 649899953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_ModularBuzzing
+        ObjectType: 3
+        guid: 1bd7e409c4454e46b2e8cfb63e8f6f24
+      Path: Events\Default Work Unit\Play_ModularBuzzing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SwellingVoxCreepy
+      guid: 6314ef0803d8fe41875499eb41606c37
+      id: 1876149510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_SwellingVoxCreepy
+        ObjectType: 3
+        guid: 6314ef0803d8fe41875499eb41606c37
+      Path: Events\Default Work Unit\Play_SwellingVoxCreepy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TonalGlitchBuzzing
+      guid: 2ed30327aa1b644a8aeed80f40c400f7
+      id: 432953570
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_TonalGlitchBuzzing
+        ObjectType: 3
+        guid: 2ed30327aa1b644a8aeed80f40c400f7
+      Path: Events\Default Work Unit\Play_TonalGlitchBuzzing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -167,7 +266,7 @@ MonoBehaviour:
     m_lastTime: -8584465818730605135
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 08000000090000001100000012000000
+  ExpandedWaapiItemIds: 0700000008000000090000000b0000000c0000001100000012000000d3010000d4010000df010000e0010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
