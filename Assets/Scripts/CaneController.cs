@@ -61,7 +61,14 @@ public class CaneController : MonoBehaviour
 
         /*code to make the rotation of the cursor same as the right hand model*/
         cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
-        
+
+
+
+        cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+
+        //cane.transform.GetChild(0).transform.rotation = Quaternion.Euler(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
+        //cane.transform.GetChild(0).transform.localEulerAngles = new Vector3(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
+
 
 
 
