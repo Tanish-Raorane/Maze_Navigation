@@ -4921,12 +4921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2ba0e9b550591a4f93d79bdfc6d1f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e240f19db2d28484a9156151428f7fe4,
+    WwiseObjectReference: {fileID: 11400000, guid: 64fa18c69999a05429637615224fe08f,
       type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
@@ -5174,6 +5174,7 @@ GameObject:
   - component: {fileID: 1758772189}
   - component: {fileID: 1758772188}
   - component: {fileID: 1758772187}
+  - component: {fileID: 1758772190}
   m_Layer: 0
   m_Name: General
   m_TagString: Untagged
@@ -5282,6 +5283,36 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &1758772190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758772185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c79f3c952e905742a7eaa6376fe2bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 74d99ba9d3accca469198c958419b4fa,
+      type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &1808718180
 GameObject:
   m_ObjectHideFlags: 0
