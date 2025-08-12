@@ -6,12 +6,15 @@ public class CaneController : MonoBehaviour
 {
     public GameObject senmagWorkspace;
     private GameObject defaultCursor;
+    private GameObject deviceLocation;
     private bool firstTime = false;
 
     public GameObject canePrefab;
     private GameObject cane;
 
-    public GameObject rightHandDummy;
+    public GameObject rightHandModel;
+
+    //public GameObject rightHandDummy;
     void Start()
     {
 
@@ -41,6 +44,7 @@ public class CaneController : MonoBehaviour
         if (!firstTime)
         {
             defaultCursor = senmagWorkspace.transform.GetChild(0).GetChild(1).gameObject;
+            deviceLocation = senmagWorkspace.transform.GetChild(0).GetChild(0).gameObject;
             //defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = canePrefab;
 
@@ -55,22 +59,32 @@ public class CaneController : MonoBehaviour
         }
 
 
+        /*code to make the rotation of the cursor same as the right hand model*/
+        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+        
+
+
+
         //Vector3 pointDirectionUp = (rightHandDummy.transform.position - cane.transform.GetChild(0).transform.position).normalized;
         //cane.transform.GetChild(0).transform.LookAt(pointDirectionUp);  
 
         //Vector3 currentForward = cane.transform.GetChild(0).transform.forward;
 
-        Vector3 pointDirectionUp = (rightHandDummy.transform.position - cane.transform.GetChild(0).transform.position).normalized;
-
-        Vector3 refForward = cane.transform.forward;
-        if (Mathf.Abs(Vector3.Dot(pointDirectionUp, refForward)) > 0.99f)
-            refForward = Vector3.right;
-
-       
-        Vector3 forward = Vector3.Cross(pointDirectionUp, Vector3.Cross(refForward, pointDirectionUp)).normalized;
 
 
+        /* code to make Cane point towards the right hand */
 
-        cane.transform.GetChild(0).transform.rotation = Quaternion.LookRotation(forward, pointDirectionUp);
+        //Vector3 pointDirectionUp = (rightHandDummy.transform.position - cane.transform.GetChild(0).transform.position).normalized;
+
+        //Vector3 refForward = cane.transform.forward;
+        //if (Mathf.Abs(Vector3.Dot(pointDirectionUp, refForward)) > 0.99f)
+        //    refForward = Vector3.right;
+
+
+        //Vector3 forward = Vector3.Cross(pointDirectionUp, Vector3.Cross(refForward, pointDirectionUp)).normalized;
+
+
+
+        //cane.transform.GetChild(0).transform.rotation = Quaternion.LookRotation(forward, pointDirectionUp);
     }
 }
