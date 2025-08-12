@@ -3,3 +3,46 @@
 /build/
 Logs/
 .vs/
+
+.cache/
+
+# Local user settings file. Contains window layouts and user preferences.
+*.wsettings
+
+# Older user settings files (pre-2021.1).
+*.wsuo
+
+# Backup folders created during a Wwise version upgrade. Your Git history
+# serves as a better backup.
+.backup/
+*.backup
+
+# Profiling and logging files generated during a capture session.
+*.prof
+
+# Validation cache files. These are generated from your Work Units (.wwu).
+*.validationcache
+
+# Tracks the local state of SoundBank generation. This can cause conflicts
+# between different users.
+IncrementalSoundBankData.xml
+
+# Unity-specific integration files that can be regenerated.
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sln
+*.csproj
+
+# Build artifacts
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Tt]emp/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

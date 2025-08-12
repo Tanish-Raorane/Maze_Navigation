@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AC834EAF-FF4E-494F-820A-CBBC2AB074A2}" SchemaVersion="123">
-	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{AC834EAF-FF4E-494F-820A-CBBC2AB074A2}" PersistMode="Standalone"/>
-	</AudioObjects>
-</WwiseDocument>
+version https://git-lfs.github.com/spec/v1
+oid sha256:786fb7e35ab686b7f65a8ab0dc27c4314aa4dd1ae36c2d874e88e8542c690917
+size 293

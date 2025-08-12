@@ -1,2 +1,21 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# Wwise Project & Work Units
+# These are binary and change often, so LFS is a good choice.
+*.wproj filter=lfs diff=lfs merge=lfs -text
+*.wwu filter=lfs diff=lfs merge=lfs -text
+
+# Original Audio Source Files 
+# These are your raw, high-quality audio assets and are often very large.
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+
+# Generated SoundBanks 
+# These are the compiled audio data your game engine loads. It's crucial
+# to track these so team members without Wwise can still run the game.
+*.bnk filter=lfs diff=lfs merge=lfs -text

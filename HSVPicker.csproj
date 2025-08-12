@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{05647A86-C3D5-5300-B88A-7B75B31EF9E6}</ProjectGuid>
+    <ProjectGuid>{7883CAEA-BAA6-0509-588F-A31A837B3884}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>HSVPicker</AssemblyName>

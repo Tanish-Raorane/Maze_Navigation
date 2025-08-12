@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{661E9525-4A7F-6DB3-493F-34877E9B5E40}</ProjectGuid>
+    <ProjectGuid>{5DCE2481-6C01-60D2-145C-040EE37EA362}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -955,67 +955,67 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{CEF453CB-7EDC-4624-A022-A5FC462C4BE6}</Project>
+      <Project>{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
-      <Project>{2ED8FF56-DBE0-C7CB-521D-7E10CCEEDAA4}</Project>
+      <Project>{92689ABE-861E-A440-5EDD-DE29ECD4B45D}</Project>
       <Name>AK.Wwise.Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
-      <Project>{89561157-D70E-43C3-B873-6CD9CA34CF66}</Project>
+      <Project>{0E5FBCBF-0110-6B57-FE12-AEFDDEB045EB}</Project>
       <Name>AK.Wwise.Unity.API.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="HSVPicker.csproj">
-      <Project>{05647A86-C3D5-5300-B88A-7B75B31EF9E6}</Project>
+      <Project>{7883CAEA-BAA6-0509-588F-A31A837B3884}</Project>
       <Name>HSVPicker</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj">
-      <Project>{C0B7CE5D-9B20-8919-7B3A-283DE1048C52}</Project>
+      <Project>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</Project>
       <Name>AK.Wwise.Unity.ProjectDatabase</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.csproj">
-      <Project>{C5576AC3-C278-735D-5F1D-9334DB655E2C}</Project>
+      <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
       <Name>AK.Wwise.Unity.API</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
-      <Project>{27E681B0-32B0-5E21-3364-C4FAC4D8E100}</Project>
+      <Project>{10CBBA18-AA4C-EB15-DE5C-E78DDFE4E4D0}</Project>
       <Name>AK.Wwise.Unity.AddressableInstaller</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
-      <Project>{8E4267F9-7A1F-A331-CED6-A6C30FACAF6C}</Project>
+      <Project>{408B89DC-C861-295D-9657-7ACE59CF7EAA}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour</Name>
     </ProjectReference>
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
-      <Project>{784F3A37-3213-018F-97C1-0CEE327D6289}</Project>
+      <Project>{BF0DE463-EB06-1446-934C-0387D6F85314}</Project>
       <Name>Ak.Wwise.Api.WAAPI</Name>
     </ProjectReference>
     <ProjectReference Include="HSVPicker.Editors.csproj">
-      <Project>{3E1C0E90-D07A-4E8F-C2E3-3614CF2E68F7}</Project>
+      <Project>{5308A9B5-C770-27A2-D0D4-7C01D656F908}</Project>
       <Name>HSVPicker.Editors</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
-      <Project>{92A692EF-B810-2731-B7D9-C32C46A956E0}</Project>
+      <Project>{330A3337-94C8-27A0-F4AC-E829A3DC419D}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
-      <Project>{9F51D62B-E12E-9AC6-742C-391D18DF2D31}</Project>
+      <Project>{F0726B6F-3975-D1FD-2636-5046EF0D6DFF}</Project>
       <Name>AK.Wwise.Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
-      <Project>{A164C11A-128F-003B-9A71-C32B0370C5B2}</Project>
+      <Project>{D08B4C81-4E16-2797-2BAD-AD1685980ED0}</Project>
       <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{25559C27-8532-C874-7846-0030478248FC}</Project>
+      <Project>{F86CD69F-630A-30B5-7430-B49D451D3025}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{3AF0E0AD-A3B2-DDDE-5962-DA65E4FA03C4}</Project>
+      <Project>{F311CC04-171B-9D78-976C-A73AB3DB66CD}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
-      <Project>{1848D514-62AC-DAA0-5103-5A8BFB49D4DD}</Project>
+      <Project>{224557F9-CE29-BD5A-48BB-75C2C35080A5}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
     </ProjectReference>
   </ItemGroup>

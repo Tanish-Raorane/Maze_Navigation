@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3E1C0E90-D07A-4E8F-C2E3-3614CF2E68F7}</ProjectGuid>
+    <ProjectGuid>{5308A9B5-C770-27A2-D0D4-7C01D656F908}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>HSVPicker.Editors</AssemblyName>
@@ -742,7 +742,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="HSVPicker.csproj">
-      <Project>{05647A86-C3D5-5300-B88A-7B75B31EF9E6}</Project>
+      <Project>{7883CAEA-BAA6-0509-588F-A31A837B3884}</Project>
       <Name>HSVPicker</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Maze_Navigation_WwiseProject",
+   "GUID": "{51AF3204-C3E5-4A4F-93D3-659636CFF726}",
+   "Generator": "2024.1.5.8803"
+  },
+  "CacheRoot": "../../../../Maze_Navigation_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{CE69263F-9910-4497-A4FF-30ADBF9D3B68}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../Maze_Navigation_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{2C9F45EE-B016-4231-B975-BCEB617B4F50}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../Maze_Navigation_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{C5AF8D4F-5941-4944-9F11-45E18D3D3E53}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{E36F2EED-6DFE-2554-5492-7D61B9992A5C}"
+ }
+}

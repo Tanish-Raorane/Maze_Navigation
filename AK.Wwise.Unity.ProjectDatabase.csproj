@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C0B7CE5D-9B20-8919-7B3A-283DE1048C52}</ProjectGuid>
+    <ProjectGuid>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AK.Wwise.Unity.ProjectDatabase</AssemblyName>
