@@ -59,12 +59,15 @@ public class CaneController : MonoBehaviour
         }
 
 
-        /*code to make the rotation of the cursor same as the right hand model*/
-        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+        /*code to make the position and rotation of the cursor same as the right hand model*/
+        //cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+        //cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+        //cane.transform.rotation = rightHandModel.transform.rotation;
+        //cane.transform.position = rightHandModel.transform.position;
+        
 
 
-
-        cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+        
 
         //cane.transform.GetChild(0).transform.rotation = Quaternion.Euler(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
         //cane.transform.GetChild(0).transform.localEulerAngles = new Vector3(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
@@ -94,4 +97,20 @@ public class CaneController : MonoBehaviour
 
         //cane.transform.GetChild(0).transform.rotation = Quaternion.LookRotation(forward, pointDirectionUp);
     }
+
+
+    //private void LateUpdate()
+    //{
+    //    if (senmagWorkspace.transform.GetChild(0).GetChild(1) == null || senmagWorkspace.transform.childCount == 0)
+    //    {
+    //        return;
+    //    }
+
+    //    if (firstTime)
+    //    {
+    //        cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+    //        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+    //    }
+    //}
+    
 }

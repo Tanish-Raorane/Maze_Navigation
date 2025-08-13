@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scenes\\asylum materials\\scripts\\fluorescentflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\asylum materials\\scripts\\fluorescentflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_styluscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,18 +56,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CaneController.cs",
               "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CaneController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T18:48:13.598Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FluorescentFlicker.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Senmag_Workspace.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
@@ -111,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Senmag_HapticCursor.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "ViewState": "AgIAAKIBAAAAAAAAAAA7wK0BAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAkwKQBAAAoAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T23:43:33.013Z"
             },
