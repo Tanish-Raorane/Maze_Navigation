@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\",
+  "WorkspaceRootPath": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\mk24439\\onedrive - university of bristol\\documents\\github\\maze_navigation\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\mk24439\\onedrive - university of bristol\\documents\\github\\maze_navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scenes\\asylum materials\\scripts\\fluorescentflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\scenes\\asylum materials\\scripts\\fluorescentflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\asylum materials\\scripts\\fluorescentflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_styluscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_styluscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_styluscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_stylustip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_stylustip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\resources\\endeffectors\\dk1_stylus_v1\\source\\senmag_stylustip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\stickcollide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\scripts\\stickcollide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stickcollide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\curosrline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\assets\\scripts\\curosrline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\curosrline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,14 +51,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CaneController.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CaneController.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CaneController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "Title": "DoorController.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\DoorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\DoorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T18:48:13.598Z",
+              "WhenOpened": "2025-08-13T12:05:46.343Z",
               "EditorCaption": ""
             },
             {
@@ -64,10 +68,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CaneController.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CaneController.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CaneController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:48:13.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FluorescentFlicker.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
               "RelativeToolTip": "Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +92,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Senmag_Workspace.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
               "ViewState": "AgIAAFoBAAAAAAAAAAAowI4BAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,11 +104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StickCollide.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\StickCollide.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\StickCollide.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StickCollide.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\StickCollide.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\StickCollide.cs",
               "RelativeToolTip": "Assets\\Scripts\\StickCollide.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,11 +116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CurosrLine.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CurosrLine.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\CurosrLine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CurosrLine.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CurosrLine.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\Scripts\\CurosrLine.cs",
               "RelativeToolTip": "Assets\\Scripts\\CurosrLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Senmag_HapticCursor.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "ViewState": "AgIAAKIBAAAAAAAAAAA7wK0BAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,11 +140,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Senmag_stylusControl.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
               "ViewState": "AgIAAMEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +152,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Senmag_stylusTip.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
+              "DocumentMoniker": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
+              "ToolTip": "C:\\Users\\mk24439\\OneDrive - University of Bristol\\Documents\\GitHub\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
