@@ -14,12 +14,17 @@ public class CaneController : MonoBehaviour
 
     public GameObject rightHandModel;
 
+    private Vector3 positionVelocity;
+    public float positionSmoothTime = 0.05f;
+
     //public GameObject rightHandDummy;
     void Start()
     {
-
+        
     }
 
+    
+        
 
     void Update()
     {
@@ -54,7 +59,7 @@ public class CaneController : MonoBehaviour
             cane.transform.SetParent(defaultCursor.transform);
             //defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = cane;
-
+            //cane.transform.GetChild(0).position = rightHandModel.transform.position;
             firstTime = true;
         }
 
@@ -64,10 +69,16 @@ public class CaneController : MonoBehaviour
         //cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
         //cane.transform.rotation = rightHandModel.transform.rotation;
         //cane.transform.position = rightHandModel.transform.position;
-        
 
 
-        
+        //defaultCursor.transform.rotation = rightHandModel.transform.rotation;
+        //defaultCursor.transform.position = rightHandModel.transform.position;
+
+        //deviceLocation.transform.rotation = rightHandModel.transform.rotation;
+        //deviceLocation.transform.position = rightHandModel.transform.position;
+
+
+
 
         //cane.transform.GetChild(0).transform.rotation = Quaternion.Euler(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
         //cane.transform.GetChild(0).transform.localEulerAngles = new Vector3(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
@@ -84,7 +95,7 @@ public class CaneController : MonoBehaviour
 
         /* code to make Cane point towards the right hand */
 
-        //Vector3 pointDirectionUp = (rightHandDummy.transform.position - cane.transform.GetChild(0).transform.position).normalized;
+        //Vector3 pointDirectionUp = (-rightHandModel.transform.position - cane.transform.GetChild(0).transform.position).normalized;
 
         //Vector3 refForward = cane.transform.forward;
         //if (Mathf.Abs(Vector3.Dot(pointDirectionUp, refForward)) > 0.99f)
@@ -96,6 +107,28 @@ public class CaneController : MonoBehaviour
 
 
         //cane.transform.GetChild(0).transform.rotation = Quaternion.LookRotation(forward, pointDirectionUp);
+
+        
+    
+
+       //// Controller's forward vector
+       //     Vector3 forward = rightHandModel.transform.forward;
+
+       // // Custom up vector (optional)
+       // Vector3 up = rightHandModel.transform.up;
+
+       // // Target rotation
+       // Quaternion targetRotation = Quaternion.LookRotation(forward, up);
+
+       // // Smooth rotation towards target (adjust rotationSpeed as needed)
+       // float rotationSpeed = 10f; // higher = faster catch-up
+       // cane.transform.GetChild(0).rotation = Quaternion.Slerp(
+       //     cane.transform.GetChild(0).rotation,
+       //     targetRotation,
+       //     Time.deltaTime * rotationSpeed
+       // );
+
+
     }
 
 
@@ -112,5 +145,5 @@ public class CaneController : MonoBehaviour
     //        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
     //    }
     //}
-    
+
 }
