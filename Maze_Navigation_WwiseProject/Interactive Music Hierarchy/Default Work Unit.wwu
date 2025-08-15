@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D306DA4F-2DD2-4559-AAEC-F546201CF858}" SchemaVersion="123">
-	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D306DA4F-2DD2-4559-AAEC-F546201CF858}" PersistMode="Standalone"/>
-	</InteractiveMusic>
-</WwiseDocument>
+version https://git-lfs.github.com/spec/v1
+oid sha256:38ff851304c1dec787caa3e62fd26c24944c37e3424ab7c2810b84bee5aefea4
+size 301

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class CaneController : MonoBehaviour
 {
@@ -14,12 +16,35 @@ public class CaneController : MonoBehaviour
 
     public GameObject rightHandModel;
 
+    private Vector3 positionVelocity;
+    public float positionSmoothTime = 0.05f;
+    private bool isTriggerPressed = false;
+
+    public InputActionReference rightController;
+    public GameObject xrOrigin;
     //public GameObject rightHandDummy;
+
+    private bool oneTime = false;  //Replace this with an Audio trigger in a coroutine once sound is added so that the user can draw the cane only after its' corresponding audio prompt is given
+
     void Start()
     {
-
+        //StartCoroutine(CanePosition());
     }
 
+
+    //public IEnumerator CanePosition()
+    //{
+    //    yield return new WaitUntil(() => firstTime);
+    //   while(!isTriggerPressed)
+    //    {
+    //        senmagWorkspace.SetActive(false); 
+    //        cane.transform.position = rightHandModel.transform.position;
+    //    }
+
+
+
+
+    //}
 
     void Update()
     {
@@ -35,7 +60,7 @@ public class CaneController : MonoBehaviour
         //{
         //    Debug.Log("null");
         //}
-        //else
+        //elses
         //{
         //    Debug.Log(" NOT null");
         //}
@@ -54,14 +79,30 @@ public class CaneController : MonoBehaviour
             cane.transform.SetParent(defaultCursor.transform);
             //defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = cane;
-
+            //cane.transform.GetChild(0).position = rightHandModel.transform.position;
             firstTime = true;
         }
 
 
-        /*code to make the rotation of the cursor same as the right hand model*/
-        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
-        
+        /*code to make the position and rotation of the cursor same as the right hand model*/
+        //cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+        //cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+        //cane.transform.rotation = rightHandModel.transform.rotation;
+        //cane.transform.position = rightHandModel.transform.position;
+
+
+        //defaultCursor.transform.rotation = rightHandModel.transform.rotation;
+        //defaultCursor.transform.position = rightHandModel.transform.position;
+
+        //deviceLocation.transform.rotation = rightHandModel.transform.rotation;
+        //deviceLocation.transform.position = rightHandModel.transform.position;
+
+
+
+
+        //cane.transform.GetChild(0).transform.rotation = Quaternion.Euler(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
+        //cane.transform.GetChild(0).transform.localEulerAngles = new Vector3(rightHandModel.transform.rotation.x + 90f, rightHandModel.transform.rotation.y, rightHandModel.transform.rotation.z);
+
 
 
 
@@ -74,7 +115,7 @@ public class CaneController : MonoBehaviour
 
         /* code to make Cane point towards the right hand */
 
-        //Vector3 pointDirectionUp = (rightHandDummy.transform.position - cane.transform.GetChild(0).transform.position).normalized;
+        //Vector3 pointDirectionUp = (rightHandModel.transform.position - cane.transform.GetChild(0).transform.position).normalized;
 
         //Vector3 refForward = cane.transform.forward;
         //if (Mathf.Abs(Vector3.Dot(pointDirectionUp, refForward)) > 0.99f)
@@ -86,5 +127,81 @@ public class CaneController : MonoBehaviour
 
 
         //cane.transform.GetChild(0).transform.rotation = Quaternion.LookRotation(forward, pointDirectionUp);
+
+
+
+
+        //// Controller's forward vector
+        //     Vector3 forward = rightHandModel.transform.forward;
+
+        // // Custom up vector (optional)
+        // Vector3 up = rightHandModel.transform.up;
+
+        // // Target rotation
+        // Quaternion targetRotation = Quaternion.LookRotation(forward, up);
+
+        // // Smooth rotation towards target (adjust rotationSpeed as needed)
+        // float rotationSpeed = 10f; // higher = faster catch-up
+        // cane.transform.GetChild(0).rotation = Quaternion.Slerp(
+        //     cane.transform.GetChild(0).rotation,
+        //     targetRotation,
+        //     Time.deltaTime * rotationSpeed
+        // );
+
+
+        //if (rightController.action.WasPressedThisFrame() && !oneTime)
+        //{
+        //    cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
+        //    cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
+        //    oneTime = true;
+        //    //isTriggerPressed = !isTriggerPressed;
+
+        //}
+
+        //if (isTriggerPressed)
+        //{
+        //    if (firstTime)
+        //    {
+        //        senmagWorkspace.SetActive(true);
+        //    }
+
+        //}
+
+        //if (!isTriggerPressed)
+        //{
+        //    if (firstTime)
+        //    {
+        //        senmagWorkspace.SetActive(false);
+        //    }
+
+        //}
+
+        if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
+        {
+            xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 0;
+            xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 0;
+        }
+        else
+        {
+            xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 1;
+            xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 60;
+        }
+
     }
+
+
+    //private void LateUpdate()
+    //{
+    //    if (senmagWorkspace.transform.GetChild(0).GetChild(1) == null || senmagWorkspace.transform.childCount == 0)
+    //    {
+    //        return;
+    //    }
+
+    //    if (firstTime)
+    //    {
+    //        cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
+    //        cane.transform.GetChild(0).transform.rotation = rightHandModel.transform.rotation;
+    //    }
+    //}
+
 }
