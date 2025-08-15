@@ -46,8 +46,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.46747863, g: 0.47058824, b: 0.2039216, a: 1}
-  m_Intensity: 1000
-  m_Range: 40.277195
+  m_Intensity: 300
+  m_Range: 41.4
   m_SpotAngle: 179
   m_InnerSpotAngle: 78.60121
   m_CookieSize: 10
@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flickerLight: {fileID: 4417120809637180742}
-  minIntensity: 1000
-  maxIntensity: 1500
+  minIntensity: 300
+  maxIntensity: 450
   noiseSpeed: 2
   glitchChance: 0.035
   glitchDuration: 0.08
