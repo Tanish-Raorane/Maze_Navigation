@@ -177,6 +177,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\SenmagSDK\Core\Scripts\DeviceInterfaces\FTDI_D2XX\D2XXWrapper\x64\Debug\D2XXWrapper.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Wwise\API\Runtime\Plugins\Windows\x86_64\Profile\AkUnitySoundEngine.dll" />
     <None Include="Assets\SenmagSDK\Demos\Paint_Demo\HSV-Color-Picker-Unity-master\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\SenmagSDK\Demos\Paint_Demo\HSV-Color-Picker-Unity-master\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -204,6 +205,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Wwise\ProjectDatabase\Runtime\Plugins\Windows\x86_64\DSP\WwiseProjectDatabase.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\SenmagSDK\Demos\Paint_Demo\HSV-Color-Picker-Unity-master\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
