@@ -985,13 +985,13 @@
       <Project>{7883CAEA-BAA6-0509-588F-A31A837B3884}</Project>
       <Name>HSVPicker</Name>
     </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj">
-      <Project>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</Project>
-      <Name>AK.Wwise.Unity.ProjectDatabase</Name>
-    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.csproj">
       <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
       <Name>AK.Wwise.Unity.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj">
+      <Project>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</Project>
+      <Name>AK.Wwise.Unity.ProjectDatabase</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
       <Project>{10CBBA18-AA4C-EB15-DE5C-E78DDFE4E4D0}</Project>

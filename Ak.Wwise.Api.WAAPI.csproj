@@ -59,10 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\AkWaapiClient.cs" />
+    <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\Uri.cs" />
     <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\Wamp.cs" />
     <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\AkWaapiUtilities.cs" />
     <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\AkWaapiHelper.cs" />
-    <Compile Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\Uri.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Wwise\API\Runtime\Handwritten\WAAPI\Ak.Wwise.Api.WAAPI.asmdef" />

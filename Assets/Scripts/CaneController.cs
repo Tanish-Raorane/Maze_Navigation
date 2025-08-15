@@ -80,6 +80,7 @@ public class CaneController : MonoBehaviour
             //defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = cane;
             //cane.transform.GetChild(0).position = rightHandModel.transform.position;
+            senmagWorkspace.transform.GetChild(0).transform.localEulerAngles = new Vector3(0, 0, 0);
             firstTime = true;
         }
 
@@ -149,34 +150,34 @@ public class CaneController : MonoBehaviour
         // );
 
 
-        //if (rightController.action.WasPressedThisFrame() && !oneTime)
-        //{
-        //    cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
-        //    cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
-        //    oneTime = true;
-        //    //isTriggerPressed = !isTriggerPressed;
+        if (rightController.action.WasPressedThisFrame() && !oneTime)
+        {
+            cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
+            //cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
+            oneTime = true;
+            //isTriggerPressed = !isTriggerPressed;
 
-        //}
+        }
 
-        //if (isTriggerPressed)
-        //{
-        //    if (firstTime)
-        //    {
-        //        senmagWorkspace.SetActive(true);
-        //    }
+            //if (isTriggerPressed)
+            //{
+            //    if (firstTime)
+            //    {
+            //        senmagWorkspace.SetActive(true);
+            //    }
 
-        //}
+            //}
 
-        //if (!isTriggerPressed)
-        //{
-        //    if (firstTime)
-        //    {
-        //        senmagWorkspace.SetActive(false);
-        //    }
+            //if (!isTriggerPressed)
+            //{
+            //    if (firstTime)
+            //    {
+            //        senmagWorkspace.SetActive(false);
+            //    }
 
-        //}
+            //}
 
-        if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
+            if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
         {
             xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 0;
             xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 0;
