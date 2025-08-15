@@ -59,43 +59,83 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SenmagSDK\UserScripts\RadialMenu\Senmag_radialMenu.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Welding\prefabs\Tools\MIGTorchControl.cs" />
     <Compile Include="Assets\sceneScripts\CreeperBehaviour.cs" />
     <Compile Include="Assets\sceneScripts\CreeperOnButtonPress.cs" />
     <Compile Include="Assets\sceneScripts\SnapToGrid.cs" />
     <Compile Include="Assets\sceneScripts\Slicer.cs" />
+    <Compile Include="Assets\sceneScripts\TelerobotDemo.cs" />
+    <Compile Include="Assets\sceneScripts\MessageBanner.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\source\Senmag_stylusTip.cs" />
+    <Compile Include="Assets\sceneScripts\beatsaber.cs" />
     <Compile Include="Assets\sceneScripts\CollisionTracker.cs" />
+    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\missile.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_types.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_Workspace.cs" />
+    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_ThingyGoBoom.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\models\Beat_Saber_Cube\files\cubeScript.cs" />
+    <Compile Include="Assets\sceneScripts\ModelViewer.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectDestroyer.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Tools\Tip_Deleter.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaintBrushTrigScript.cs" />
     <Compile Include="Assets\sceneScripts\SlicesMetadata.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_USBComms.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PalettePicker.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\source\Senmag_stylusControl.cs" />
+    <Compile Include="Assets\Scripts\CaneController.cs" />
     <Compile Include="Assets\MeshDeformer.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\Scripts\MetaballParticleManager.cs" />
     <Compile Include="Assets\Scenes\AWE_Demo\StylusIOIntro.cs" />
     <Compile Include="Assets\sceneScripts\CursorSpawner.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Builder\hapticScaleArrow.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_DeviceManager.cs" />
+    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_customMaterial.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\PaintManager.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\grapple.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\AVR\avr_hoopControl.cs" />
     <Compile Include="Assets\sceneScripts\Capsule.cs" />
     <Compile Include="Assets\CubeSphere.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\RendererFeatures\RenderMetaballsScreenSpace.cs" />
+    <Compile Include="Assets\Scenes\AWE_Demo\prefabs\WeighingScale.cs" />
     <Compile Include="Assets\Scripts\CurosrLine.cs" />
     <Compile Include="Assets\sceneScripts\Slider.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Welding\prefabs\Tools\weldWire.cs" />
+    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools_override.cs" />
+    <Compile Include="Assets\Scenes\AWE_Demo\AWE_Demo.cs" />
+    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_hapticGrid.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\ColourGiver.cs" />
+    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\bullet.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Welding\scripts\weldable.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Paintable.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Palettes\HSV\BoxSlider_haptic.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoop.cs" />
+    <Compile Include="Assets\Scripts\DoorController.cs" />
+    <Compile Include="Assets\Scripts\StickCollide.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\CanvasManager.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\leg.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectScaler.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools.cs" />
+    <Compile Include="Assets\sceneScripts\Sliceable.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_Server.cs" />
+    <Compile Include="Assets\sceneScripts\buttonFaceScript.cs" />
     <Compile Include="Assets\MeshDeformerInput.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_button.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_Dial.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Tools\Tip_Painter.cs" />
+    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_gravityWell.cs" />
     <Compile Include="Assets\Scenes\AWE_Demo\prefabs\FloorCollisionTeleporter.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Palettes\HSV\Slider_Haptic.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_AdvancedMaterial.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Stylus_TooltipSwitcher.cs" />
     <Compile Include="Assets\MOAD\maze\lightFlasher.cs" />
     <Compile Include="Assets\sceneScripts\sandboxBuilder.cs" />
+    <Compile Include="Assets\sceneScripts\BlockTrayReplenish.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoopTrigger.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\legTip.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\RendererFeatures\RenderMetaballs.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectLocker.cs" />
+    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\gunTurret.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\hatch.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\lidScript.cs" />
     <Compile Include="Assets\sceneScripts\CreepSpawningUI.cs" />
@@ -107,55 +147,8 @@
     <Compile Include="Assets\SenmagSDK\Core\Scripts\DeviceInterfaces\LibreOneComms.cs" />
     <Compile Include="Assets\sceneScripts\spaceBall.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_button_forcefield.cs" />
-    <Compile Include="Assets\sceneScripts\teapotCurling.cs" />
-    <Compile Include="Assets\sceneScripts\controlPannel.cs" />
-    <Compile Include="Assets\sceneScripts\cubeFragmentScript.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\CollisionPainter.cs" />
-    <Compile Include="Assets\sceneScripts\MOAD\MOAD_StateMachine.cs" />
-    <Compile Include="Assets\sceneScripts\CreeperSpawner.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_HapticCursor.cs" />
-    <Compile Include="Assets\sceneScripts\TelerobotUI.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Welding\prefabs\Tools\MIGTorchControl.cs" />
-    <Compile Include="Assets\sceneScripts\TelerobotDemo.cs" />
-    <Compile Include="Assets\sceneScripts\MessageBanner.cs" />
-    <Compile Include="Assets\sceneScripts\beatsaber.cs" />
-    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\missile.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_Workspace.cs" />
-    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_ThingyGoBoom.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Utils\Singleton.cs" />
-    <Compile Include="Assets\models\Beat_Saber_Cube\files\cubeScript.cs" />
-    <Compile Include="Assets\sceneScripts\ModelViewer.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Tools\Tip_Deleter.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaintBrushTrigScript.cs" />
-    <Compile Include="Assets\Scripts\CaneController.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\Scripts\MetaballParticleManager.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Builder\hapticScaleArrow.cs" />
-    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_customMaterial.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\PaintManager.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\RendererFeatures\RenderMetaballsScreenSpace.cs" />
-    <Compile Include="Assets\Scenes\AWE_Demo\prefabs\WeighingScale.cs" />
-    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools_override.cs" />
-    <Compile Include="Assets\Scenes\AWE_Demo\AWE_Demo.cs" />
-    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_hapticGrid.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\ColourGiver.cs" />
-    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\bullet.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Welding\scripts\weldable.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Paintable.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Palettes\HSV\BoxSlider_haptic.cs" />
-    <Compile Include="Assets\Scripts\DoorController.cs" />
-    <Compile Include="Assets\Scripts\StickCollide.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\CanvasManager.cs" />
-    <Compile Include="Assets\sceneScripts\Sliceable.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_Server.cs" />
-    <Compile Include="Assets\sceneScripts\buttonFaceScript.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Tools\Tip_Painter.cs" />
-    <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_gravityWell.cs" />
-    <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Stylus_TooltipSwitcher.cs" />
-    <Compile Include="Assets\sceneScripts\BlockTrayReplenish.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoopTrigger.cs" />
-    <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectLocker.cs" />
-    <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\gunTurret.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\uselessMachine.cs" />
+    <Compile Include="Assets\sceneScripts\teapotCurling.cs" />
     <Compile Include="Assets\Scenes\asylum materials\scripts\FluorescentFlicker.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaletteMenu.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectSpawner.cs" />
@@ -163,7 +156,14 @@
     <Compile Include="Assets\sceneScripts\swingballScript.cs" />
     <Compile Include="Assets\sceneScripts\Lighsaber.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\switchScript.cs" />
+    <Compile Include="Assets\sceneScripts\controlPannel.cs" />
     <Compile Include="Assets\sceneScripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\sceneScripts\cubeFragmentScript.cs" />
+    <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\CollisionPainter.cs" />
+    <Compile Include="Assets\sceneScripts\MOAD\MOAD_StateMachine.cs" />
+    <Compile Include="Assets\sceneScripts\CreeperSpawner.cs" />
+    <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_HapticCursor.cs" />
+    <Compile Include="Assets\sceneScripts\TelerobotUI.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\RadialMenu\Senmag_radialMenu_Back.cs" />
     <Compile Include="Assets\RoundedCube.cs" />
   </ItemGroup>
@@ -1117,13 +1117,13 @@
       <Project>{7883CAEA-BAA6-0509-588F-A31A837B3884}</Project>
       <Name>HSVPicker</Name>
     </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.API.csproj">
-      <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
-      <Name>AK.Wwise.Unity.API</Name>
-    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj">
       <Project>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</Project>
       <Name>AK.Wwise.Unity.ProjectDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.csproj">
+      <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
+      <Name>AK.Wwise.Unity.API</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
       <Project>{10CBBA18-AA4C-EB15-DE5C-E78DDFE4E4D0}</Project>
