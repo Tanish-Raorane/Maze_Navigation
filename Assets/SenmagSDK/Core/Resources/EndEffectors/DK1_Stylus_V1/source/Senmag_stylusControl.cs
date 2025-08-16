@@ -140,6 +140,7 @@ public class Senmag_stylusControl : MonoBehaviour
 
 	public void OnCollisionStay(Collision collision)
 	{
+		
 		isColliding = true;
 		colliderCounter = 2;
 	}

@@ -14,14 +14,20 @@ public class CaneController : MonoBehaviour
     public GameObject canePrefab;
     private GameObject cane;
 
-    public GameObject rightHandModel;
+    public GameObject rightHandModel, leftHandModel;
+    //public GameObject rightHandVisual;
 
     private Vector3 positionVelocity;
     public float positionSmoothTime = 0.05f;
     private bool isTriggerPressed = false;
 
-    public InputActionReference rightController;
+    public InputActionReference rightTrigger, leftTrigger;
     public GameObject xrOrigin;
+    private GameObject xrCamera;
+
+    public float moveSpeed = 3;
+    public float rotationSpeed = 60;
+
     //public GameObject rightHandDummy;
 
     private bool oneTime = false;  //Replace this with an Audio trigger in a coroutine once sound is added so that the user can draw the cane only after its' corresponding audio prompt is given
@@ -80,7 +86,16 @@ public class CaneController : MonoBehaviour
             //defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = cane;
             //cane.transform.GetChild(0).position = rightHandModel.transform.position;
-            senmagWorkspace.transform.GetChild(0).transform.localEulerAngles = new Vector3(0, 0, 0);
+            //senmagWorkspace.transform.GetChild(0).transform.localEulerAngles = new Vector3(0, 0, 0);
+            xrCamera = xrOrigin.transform.GetChild(0).GetChild(0).gameObject;
+            //cane.transform.GetChild(0).transform.position = new Vector3(xrCamera.transform.position.x + 0.3f, xrCamera.transform.position.y - 0.2f, xrCamera.transform.position.z + 0.1f);
+
+            //cane.transform.GetChild(0).transform.position = xrCamera.transform.position;
+
+            /*Setting layer of cane*/
+            cane.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("Cane");
+
+
             firstTime = true;
         }
 
@@ -150,9 +165,10 @@ public class CaneController : MonoBehaviour
         // );
 
 
-        if (rightController.action.WasPressedThisFrame() && !oneTime)
+        if (leftTrigger.action.WasPressedThisFrame() && !oneTime)
         {
-            cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
+            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.6f, 0, 0.6f);
+            //cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
             //cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
             oneTime = true;
             //isTriggerPressed = !isTriggerPressed;
@@ -177,15 +193,15 @@ public class CaneController : MonoBehaviour
 
             //}
 
-            if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
+        if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
         {
             xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 0;
             xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 0;
         }
         else
         {
-            xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 1;
-            xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 60;
+            xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = moveSpeed;
+            xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = rotationSpeed;
         }
 
     }

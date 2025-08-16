@@ -75,6 +75,7 @@
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_ThingyGoBoom.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Utils\Singleton.cs" />
     <Compile Include="Assets\models\Beat_Saber_Cube\files\cubeScript.cs" />
+    <Compile Include="Assets\Scripts\OnEnterCharacterController.cs" />
     <Compile Include="Assets\sceneScripts\ModelViewer.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectDestroyer.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Tools\Tip_Deleter.cs" />
