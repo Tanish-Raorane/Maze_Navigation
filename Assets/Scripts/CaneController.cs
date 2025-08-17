@@ -27,6 +27,7 @@ public class CaneController : MonoBehaviour
 
     public float moveSpeed = 3;
     public float rotationSpeed = 60;
+    
 
     //public GameObject rightHandDummy;
 
@@ -83,7 +84,8 @@ public class CaneController : MonoBehaviour
 
             cane = Instantiate(canePrefab, new Vector3(defaultCursor.transform.GetChild(5).position.x, defaultCursor.transform.GetChild(5).position.y, defaultCursor.transform.GetChild(5).position.z), Quaternion.identity);
             cane.transform.SetParent(defaultCursor.transform);
-            //defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
+            //cane.transform.SetParent(defaultCursor.transform.GetChild(5).transform);
+            defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().currentToolTip = cane;
             //cane.transform.GetChild(0).position = rightHandModel.transform.position;
             //senmagWorkspace.transform.GetChild(0).transform.localEulerAngles = new Vector3(0, 0, 0);
@@ -148,23 +150,23 @@ public class CaneController : MonoBehaviour
 
 
         //// Controller's forward vector
-        //     Vector3 forward = rightHandModel.transform.forward;
+        //Vector3 forward = leftHandModel.transform.forward;
 
-        // // Custom up vector (optional)
-        // Vector3 up = rightHandModel.transform.up;
+        //// Custom up vector (optional)
+        //Vector3 up = leftHandModel.transform.up;
 
-        // // Target rotation
-        // Quaternion targetRotation = Quaternion.LookRotation(forward, up);
+        //// Target rotation
+        //Quaternion targetRotation = Quaternion.LookRotation(forward, up);
 
-        // // Smooth rotation towards target (adjust rotationSpeed as needed)
-        // float rotationSpeed = 10f; // higher = faster catch-up
-        // cane.transform.GetChild(0).rotation = Quaternion.Slerp(
-        //     cane.transform.GetChild(0).rotation,
-        //     targetRotation,
-        //     Time.deltaTime * rotationSpeed
-        // );
+        //// Smooth rotation towards target (adjust rotationSpeed as needed)
+        //float rotationSpeed = 10f; // higher = faster catch-up
+        //cane.transform.GetChild(0).rotation = Quaternion.Slerp(
+        //    cane.transform.GetChild(0).rotation,
+        //    targetRotation,
+        //    Time.deltaTime * rotationSpeed
+        //);
 
-
+        
         if (leftTrigger.action.WasPressedThisFrame() && !oneTime)
         {
             cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.6f, 0, 0.6f);
