@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_ATMOSPHERICMIX = 2202212453U;
         static const AkUniqueID PLAY_CREEPYAMBIENCELOW = 2962348544U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_SOUNDOBJECTDESTINATION = 1077799210U;
     } // namespace EVENTS
 
     namespace BANKS
