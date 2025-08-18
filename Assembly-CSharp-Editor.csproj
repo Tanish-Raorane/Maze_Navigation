@@ -781,6 +781,9 @@
     <Reference Include="Unity.2D.Aseprite.Common">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -832,6 +835,9 @@
     <Reference Include="Unity.2D.Aseprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
@@ -867,6 +873,9 @@
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -916,11 +925,14 @@
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
@@ -989,10 +1001,6 @@
       <Project>{BDA0FC07-0841-9DA4-9974-650AE79C0A2D}</Project>
       <Name>AK.Wwise.Unity.ProjectDatabase</Name>
     </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.API.csproj">
-      <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
-      <Name>AK.Wwise.Unity.API</Name>
-    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
       <Project>{10CBBA18-AA4C-EB15-DE5C-E78DDFE4E4D0}</Project>
       <Name>AK.Wwise.Unity.AddressableInstaller</Name>
@@ -1000,6 +1008,10 @@
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
       <Project>{408B89DC-C861-295D-9657-7ACE59CF7EAA}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.csproj">
+      <Project>{C25DBF97-E118-CEBE-2837-02F9CE248D70}</Project>
+      <Name>AK.Wwise.Unity.API</Name>
     </ProjectReference>
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
       <Project>{BF0DE463-EB06-1446-934C-0387D6F85314}</Project>
