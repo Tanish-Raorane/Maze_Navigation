@@ -25,7 +25,11 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 16
+=======
+  controlID: 45
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
   controlID: 45
 >>>>>>> parent of e5ca8c0 (probuilder maze)
@@ -228,6 +232,9 @@ MonoBehaviour:
 =======
     width: 1818
     height: 989
+<<<<<<< HEAD
+>>>>>>> parent of e5ca8c0 (probuilder maze)
+=======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -627,9 +634,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -31.162933, y: 1.8012776, z: 121.14494}
     speed: 2
     m_Value: {x: -31.162933, y: 1.8012776, z: 121.14494}
+=======
+    m_Target: {x: -114.97, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 4.1859293, y: -2.8932228, z: 120.710846}
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     m_Target: {x: -114.97, y: 0, z: 0}
     speed: 2
@@ -681,6 +694,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.46767557, y: -0.18130434, z: 0.098690934, w: -0.8595358}
     speed: 2
     m_Value: {x: -0.46635467, y: -0.18144011, z: 0.09841224, w: -0.860179}
@@ -688,6 +702,15 @@ MonoBehaviour:
     m_Target: 811.23236
     speed: 2
     m_Value: 776.2989
+=======
+    m_Target: {x: -0.07933274, y: -0.90714633, z: 0.19827852, w: -0.36267745}
+    speed: 2
+    m_Value: {x: 0.1852, y: -0.71797436, z: 0.6377696, w: 0.20847969}
+  m_Size:
+    m_Target: 48.833504
+    speed: 2
+    m_Value: 34.46937
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     m_Target: {x: -0.07933274, y: -0.90714633, z: 0.19827852, w: -0.36267745}
     speed: 2
@@ -892,6 +915,9 @@ MonoBehaviour:
   - {fileID: 10}
   m_Selected: 0
   m_LastSelected: 2
+<<<<<<< HEAD
+>>>>>>> parent of e5ca8c0 (probuilder maze)
+=======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
 --- !u!114 &8
 MonoBehaviour:
@@ -3459,6 +3485,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
@@ -3495,6 +3522,8 @@ MonoBehaviour:
   m_Enabled: 1
 =======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
+=======
+>>>>>>> parent of e5ca8c0 (probuilder maze)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
@@ -3504,9 +3533,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 871.3333
     width: 2136
     height: 428.00006
+=======
+    y: 1010
+    width: 2136
+    height: 289.33337
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     y: 1010
     width: 2136
@@ -3543,9 +3578,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 944
     width: 2135
     height: 407.00006
+=======
+    y: 1082.6667
+    width: 2135
+    height: 268.33337
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     y: 1082.6667
     width: 2135
@@ -3573,7 +3614,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/Scenes/prefab
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     - Assets/Scenes/prefab
 >>>>>>> parent of e5ca8c0 (probuilder maze)
@@ -3585,7 +3630,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets/Scenes/prefab
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
   - Assets/Scenes/prefab
 >>>>>>> parent of e5ca8c0 (probuilder maze)
@@ -3595,15 +3644,21 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 119}
     m_SelectedIDs: c0780000
     m_LastClickedID: 30912
     m_ExpandedIDs: 00000000be780000c078000000ca9a3bffffff7f
 =======
+=======
+>>>>>>> parent of e5ca8c0 (probuilder maze)
     scrollPos: {x: 0, y: 180}
     m_SelectedIDs: fc900000
     m_LastClickedID: 37116
     m_ExpandedIDs: 00000000388e00003a8e000000ca9a3bffffff7f
+<<<<<<< HEAD
+>>>>>>> parent of e5ca8c0 (probuilder maze)
+=======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3633,7 +3688,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000be780000c0780000
+=======
+    m_ExpandedIDs: 00000000388e00003a8e0000
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     m_ExpandedIDs: 00000000388e00003a8e0000
 >>>>>>> parent of e5ca8c0 (probuilder maze)
@@ -3662,8 +3721,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 2088fcff
     m_LastClickedInstanceID: -227296
+=======
+    m_SelectedInstanceIDs: 40930000
+    m_LastClickedInstanceID: 37696
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
     m_SelectedInstanceIDs: 40930000
     m_LastClickedInstanceID: 37696
@@ -3759,6 +3823,9 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
+<<<<<<< HEAD
+>>>>>>> parent of e5ca8c0 (probuilder maze)
+=======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
   m_Panes:
   - {fileID: 15}

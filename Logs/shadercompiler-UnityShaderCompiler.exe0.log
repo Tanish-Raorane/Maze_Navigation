@@ -2,6 +2,9 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data', plugins p
 Cmd: initializeCompiler
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmd: shutdown
+=======
+>>>>>>> parent of e5ca8c0 (probuilder maze)
 =======
 >>>>>>> parent of e5ca8c0 (probuilder maze)
