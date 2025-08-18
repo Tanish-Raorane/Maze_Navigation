@@ -59,20 +59,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwisePlatformRef.cs" />
+    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseEventRefMediaArray.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Mac\WwiseProjectDatabase_Mac.cs" />
+    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseMediaRef.cs" />
+    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseEventRef.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseProjectDatabase.cs" />
+    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Windows\WwiseProjectDataBasePINVOKE_Windows.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Windows\WwiseProjectDatabase_Windows.cs" />
+    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Mac\WwiseProjectDataBasePINVOKE_Mac.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseSoundBankRefArray.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseSoundBankRef.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwisePluginRefArray.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwisePluginRef.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseMediaRefArray.cs" />
     <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseEventRefArray.cs" />
-    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseEventRefMediaArray.cs" />
-    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseMediaRef.cs" />
-    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Common\WwiseEventRef.cs" />
-    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Windows\WwiseProjectDataBasePINVOKE_Windows.cs" />
-    <Compile Include="Assets\Wwise\ProjectDatabase\Runtime\Handwritten\Mac\WwiseProjectDataBasePINVOKE_Mac.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Wwise\ProjectDatabase\Runtime\AK.Wwise.Unity.ProjectDataBase.asmdef" />
