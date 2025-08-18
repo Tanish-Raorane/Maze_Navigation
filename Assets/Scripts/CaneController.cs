@@ -27,7 +27,7 @@ public class CaneController : MonoBehaviour
 
     public float moveSpeed = 3;
     public float rotationSpeed = 60;
-
+    
 
     //public GameObject rightHandDummy;
 
@@ -166,10 +166,10 @@ public class CaneController : MonoBehaviour
         //    Time.deltaTime * rotationSpeed
         //);
 
-
+        
         if (leftTrigger.action.WasPressedThisFrame() && !oneTime)
         {
-            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.6f, 0, 0.6f);
+            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.6f, 0, 0.4f);
             //cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
             //cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
             oneTime = true;
@@ -177,23 +177,23 @@ public class CaneController : MonoBehaviour
 
         }
 
-        //if (isTriggerPressed)
-        //{
-        //    if (firstTime)
-        //    {
-        //        senmagWorkspace.SetActive(true);
-        //    }
+            //if (isTriggerPressed)
+            //{
+            //    if (firstTime)
+            //    {
+            //        senmagWorkspace.SetActive(true);
+            //    }
 
-        //}
+            //}
 
-        //if (!isTriggerPressed)
-        //{
-        //    if (firstTime)
-        //    {
-        //        senmagWorkspace.SetActive(false);
-        //    }
+            //if (!isTriggerPressed)
+            //{
+            //    if (firstTime)
+            //    {
+            //        senmagWorkspace.SetActive(false);
+            //    }
 
-        //}
+            //}
 
         if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
         {

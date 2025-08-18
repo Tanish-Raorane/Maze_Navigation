@@ -75,6 +75,7 @@
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_ThingyGoBoom.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Utils\Singleton.cs" />
     <Compile Include="Assets\models\Beat_Saber_Cube\files\cubeScript.cs" />
+    <Compile Include="Assets\Scripts\OnEnterCharacterController.cs" />
     <Compile Include="Assets\sceneScripts\ModelViewer.cs" />
     <Compile Include="Assets\Scripts\GarrethCanePrefabController.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectDestroyer.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Paintable.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Palettes\HSV\BoxSlider_haptic.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoop.cs" />
+    <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\StickCollide.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\CanvasManager.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\leg.cs" />
