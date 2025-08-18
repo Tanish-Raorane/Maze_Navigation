@@ -454,13 +454,13 @@ namespace SenmagHaptic
 
             if (temporaryCursor)
             {
-                displacement = temporaryCursor.transform.position - cursorTarget.transform.position;
-                currentPosition = temporaryCursor.transform.position;
+                displacement = temporaryCursor.transform.localPosition - cursorTarget.transform.localPosition;
+                currentPosition = temporaryCursor.transform.localPosition;
             }
             else
             {
-                displacement = cursorBaseModel.transform.position - cursorTarget.transform.position;
-                currentPosition = cursorBaseModel.transform.position;
+                displacement = cursorBaseModel.transform.localPosition - cursorTarget.transform.localPosition;
+                currentPosition = cursorBaseModel.transform.localPosition;
             }
 
             if (displacement.magnitude > cursorTeleportThreshold)
