@@ -14,5 +14,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	459500488	FootstepsRunning_11	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\E6\{E6676C9F-0799-E523-BAEF-F50CEE40BDBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_11		44308
 	531123315	FootstepsRunning_3	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\F0\{F0C2DD10-0A1E-2542-B9FE-E13DFED5A4CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_3		42476
 	820883097	CreepyAmbienceLow	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\7B\{7B9FD10F-1126-49B5-27AF-3CE1C686B736}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CreepyAmbienceLow		1411296
-	875720282	SoundObjectDestination	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\6A\{6A07ECA5-65F1-D418-793C-E88CAF3586B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\SoundObjectDestination		6419040
+	875720282	SoundObjectDestination	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\6A\{6A07ECA5-65F1-D418-793C-E88CAF3586B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundObjectDestination		6419040
 
