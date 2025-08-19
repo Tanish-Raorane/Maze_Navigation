@@ -303,8 +303,82 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 42de270005d129489173f8b576f11f9f
     GuidInternal: 
-    m_lastTime: -8584459895793834755
+    m_lastTime: -8584459858726955669
     List:
+    - name: Binaural
+      guid: 961361746efc36428c9bcff183a87e6e
+      id: 52442795
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural
+    - name: EarlyReflections
+      guid: 429111cfcd9def46889f838cc32889a0
+      id: 849258820
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EarlyReflections
+        ObjectType: 1
+        guid: 429111cfcd9def46889f838cc32889a0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\EarlyReflections
+    - name: Hallway01_Ambi
+      guid: a53c9e21dbe2734593a9c32aa57b72c8
+      id: 3699044378
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway01_Ambi
+        ObjectType: 1
+        guid: a53c9e21dbe2734593a9c32aa57b72c8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway01_Ambi
+    - name: Hallway02_Ambi
+      guid: da3349ff906bac4ab36513618878cee7
+      id: 3065570235
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway02_Ambi
+        ObjectType: 1
+        guid: da3349ff906bac4ab36513618878cee7
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway02_Ambi
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -331,7 +405,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f6c0f858f22a51429fd55a6891f081d8
     GuidInternal: 
-    m_lastTime: -8584459896695132354
+    m_lastTime: -8584459862838035701
     List:
     - name: Main_Bank
       guid: 36cabb748fb1bf4ba9bc09c14be267f4
@@ -359,7 +433,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b0e8ffe9d8163e449e8f020cb168c7c6
     GuidInternal: 
-    m_lastTime: -8584459895793759501
+    m_lastTime: -8584459871743586887
     List:
     - name: Play_AtmosphericMix
       guid: 33739bc9310113408a86f7770c964951
@@ -393,8 +467,8 @@ MonoBehaviour:
         guid: 873d6e076074934790a7d49534d0de1d
       Path: Events\Default Work Unit\Play_CaneClick
       maxAttenuation: 0
-      maxDuration: 1.032
-      minDuration: 1.032
+      maxDuration: 0.11139042
+      minDuration: 0.11139042
     - name: Play_CreepyAmbienceLow
       guid: 4be8e02d21426b499b43dbb354734500
       id: 2962348544
@@ -554,7 +628,7 @@ MonoBehaviour:
     m_lastTime: -8584461888006146720
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000
+  ExpandedWaapiItemIds: 02000000030000000400000005000000060000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

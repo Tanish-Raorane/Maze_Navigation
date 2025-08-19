@@ -15,9 +15,29 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	1229948536	Environment			\Default Work Unit\Environment	
+	52442795	Binaural			\Default Work Unit\Master Audio Bus\Binaural	
+	3540253623	RegularVerbs			\Default Work Unit\Master Audio Bus\RegularVerbs	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3991942870	Music			\Default Work Unit\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	849258820	EarlyReflections			\Default Work Unit\Master Audio Bus\EarlyReflections	
+	1563284185	Hallway04_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway04_Ambi	
+	1644850824	FalseHallway			\Default Work Unit\Master Audio Bus\RegularVerbs\FalseHallway	
+	2367436384	Hallway03_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway03_Ambi	
+	3065570235	Hallway02_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway02_Ambi	
+	3699044378	Hallway01_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway01_Ambi	
+
+Effect plug-ins	ID	Name	Type				Notes
+	101213727	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	276072529	Submarine1_Bunk_9m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	280566278	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	454850457	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	836258812	Club1_12m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	986540880	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	2787981274	Church4_Gallery_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	2995775460	Room_Small	Wwise RoomVerb			
+	3341797927	Alley_Long_Smooth_70m_HOA3_01	Wwise Convolution Reverb			Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.
+	3399505373	Reflect_Physically_Based	Wwise Reflect			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

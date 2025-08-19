@@ -10,11 +10,149 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{00096596-CF73-3A4B-76D6-34FE9D1B00F4}",
+    "Hash": "{13703881-F249-6611-7219-54DE7F1ABC0D}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
+    "Media": [
+     {
+      "Id": "132888797",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "OtherBank",
+      "ShortName": "BOOM Library IR - F&S\\Alley 03 70m HOA3.wav",
+      "CachePath": "71/{71DAA7A0-8FF4-113D-E1FC-D83F32ED7AA7}.wem"
+     },
+     {
+      "Id": "530005605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "OtherBank",
+      "ShortName": "BOOM Library IR - R&S\\Submarine1_Bunk_9m_Ambix_o3.wav",
+      "CachePath": "83/{83A6E761-9E26-4076-C3E6-5A76CEF3D12D}.wem"
+     },
+     {
+      "Id": "571434554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "OtherBank",
+      "ShortName": "BOOM Library IR - R&S\\Church4_Gallery_Ambix_o3.wav",
+      "CachePath": "52/{528B7509-D456-A3DD-8B38-1B797921AEAA}.wem"
+     },
+     {
+      "Id": "1064689600",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "OtherBank",
+      "ShortName": "BOOM Library IR - R&S\\Club1_12m_Ambix_o3.wav",
+      "CachePath": "BC/{BC67145F-2EBF-7DA3-FBD0-DF299D6E0819}.wem"
+     }
+    ],
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "101213727",
+       "Name": "Resonance Audio Renderer (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway02_Ambi\\[Effect Slot [1]: (Resonance Audio Renderer)]\\Resonance Audio Renderer (Custom)",
+       "GUID": "{CA9563D1-702B-4B97-94E8-BBB9896939E6}",
+       "LibName": "Resonance Audio Renderer",
+       "LibId": "6557955"
+      },
+      {
+       "Id": "280566278",
+       "Name": "Resonance Audio Renderer (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway04_Ambi\\[Effect Slot [1]: (Resonance Audio Renderer)]\\Resonance Audio Renderer (Custom)",
+       "GUID": "{0330B634-668B-4EC6-B8B0-32BBA685ADE2}",
+       "LibName": "Resonance Audio Renderer",
+       "LibId": "6557955"
+      },
+      {
+       "Id": "454850457",
+       "Name": "Resonance Audio Renderer (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway03_Ambi\\[Effect Slot [1]: (Resonance Audio Renderer)]\\Resonance Audio Renderer (Custom)",
+       "GUID": "{05D13DF0-8289-4AD9-8A46-29BE4C413ECD}",
+       "LibName": "Resonance Audio Renderer",
+       "LibId": "6557955"
+      },
+      {
+       "Id": "986540880",
+       "Name": "Resonance Audio Renderer (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway01_Ambi\\[Effect Slot [1]: (Resonance Audio Renderer)]\\Resonance Audio Renderer (Custom)",
+       "GUID": "{90222D2F-CA99-4FDD-A2CA-62C815855081}",
+       "LibName": "Resonance Audio Renderer",
+       "LibId": "6557955"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "276072529",
+       "Name": "Submarine1_Bunk_9m_Ambix_o3",
+       "ObjectPath": "\\Effects\\BOOM Library IR - R&S - HOA\\BOOM Library IR - R&S\\HOA\\Submarine\\Submarine1_Bunk_9m_Ambix_o3",
+       "GUID": "{2B89DA07-873D-48DE-A30A-E7DEC8E20C70}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "530005605"
+        }
+       ]
+      },
+      {
+       "Id": "836258812",
+       "Name": "Club1_12m_Ambix_o3",
+       "ObjectPath": "\\Effects\\BOOM Library IR - R&S - HOA\\BOOM Library IR - R&S\\HOA\\Club\\Club1_12m_Ambix_o3",
+       "GUID": "{0C2740EC-4249-45D7-A62C-BBBDFF1B9F3D}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "1064689600"
+        }
+       ]
+      },
+      {
+       "Id": "2787981274",
+       "Name": "Church4_Gallery_Ambix_o3",
+       "ObjectPath": "\\Effects\\BOOM Library IR - R&S - HOA\\BOOM Library IR - R&S\\HOA\\Church Historic 03\\Church4_Gallery_Ambix_o3",
+       "GUID": "{92947070-D24A-421C-ADE2-C03153CBEC72}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "571434554"
+        }
+       ]
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3341797927",
+       "Name": "Alley_Long_Smooth_70m_HOA3_01",
+       "ObjectPath": "\\Effects\\BOOM Library IR - F&S - HOA3, FOA, Quad & Stereo\\BOOM Library IR - F&S\\HOA3\\Alley Long\\Alley_Long_Smooth_70m_HOA3_01",
+       "GUID": "{FE6468AC-C0D1-4B0E-B63A-D04056B7F794}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "132888797"
+        }
+       ]
+      },
+      {
+       "Id": "3399505373",
+       "Name": "Reflect_Physically_Based",
+       "ObjectPath": "\\Effects\\Factory Reflect Physically-Based\\Reflect_Physically_Based",
+       "GUID": "{C69F5865-C206-4B45-BC40-315F3F39151A}",
+       "LibName": "Wwise Reflect",
+       "LibId": "11206659"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,22 +174,122 @@
     },
     "Busses": [
      {
-      "Id": "1229948536",
-      "Name": "Environment",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Environment",
-      "GUID": "{ABC08D19-500D-4FC8-B52B-87D3493CAD85}"
+      "Id": "52442795",
+      "Name": "Binaural",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural",
+      "GUID": "{74611396-FC6E-4236-8C9B-CFF183A87E6E}"
+     },
+     {
+      "Id": "3540253623",
+      "Name": "RegularVerbs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RegularVerbs",
+      "GUID": "{BAC69C86-0752-4E30-B0AA-129A197FFE64}"
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "849258820",
+      "Name": "EarlyReflections",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EarlyReflections",
+      "GUID": "{CF119142-9DCD-46EF-889F-838CC32889A0}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3399505373"
+        }
+       ]
+      }
      },
      {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music",
-      "GUID": "{C05817EA-01F1-4941-B769-7E538EF4B94F}"
+      "Id": "1563284185",
+      "Name": "Hallway04_Ambi",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway04_Ambi",
+      "GUID": "{B6397AE4-0D24-41E3-AE97-130468D9EABE}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "280566278"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "836258812"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1644850824",
+      "Name": "FalseHallway",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\RegularVerbs\\FalseHallway",
+      "GUID": "{7C7E7D9B-03AA-475F-B42F-3194C24C4704}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2367436384",
+      "Name": "Hallway03_Ambi",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway03_Ambi",
+      "GUID": "{19366E9C-DBC0-42AD-B6DD-4BBA367278F5}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "454850457"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "276072529"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3065570235",
+      "Name": "Hallway02_Ambi",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway02_Ambi",
+      "GUID": "{FF4933DA-6B90-4AAC-B365-13618878CEE7}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "101213727"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2787981274"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3699044378",
+      "Name": "Hallway01_Ambi",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway01_Ambi",
+      "GUID": "{219E3CA5-E2DB-4573-93A9-C32AA57B72C8}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "986540880"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "3341797927"
+        }
+       ]
+      }
      }
     ],
     "AcousticTextures": [
@@ -533,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{0C3A01FB-4574-0E39-C35F-6DB57D476924}"
+  "FileHash": "{526BB526-4A2C-1234-5A19-31F33AC83198}"
  }
 }

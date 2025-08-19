@@ -13,11 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_ATMOSPHERICMIX = 2202212453U;
         static const AkUniqueID PLAY_CANECLICK = 4199643119U;
-        static const AkUniqueID PLAY_CREEPYAMBIENCELOW = 2962348544U;
-        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
-        static const AkUniqueID PLAY_SOUNDOBJECTDESTINATION = 1077799210U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -28,10 +24,20 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID ENVIRONMENT = 1229948536U;
+        static const AkUniqueID BINAURAL = 52442795U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID REGULARVERBS = 3540253623U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID EARLYREFLECTIONS = 849258820U;
+        static const AkUniqueID FALSEHALLWAY = 1644850824U;
+        static const AkUniqueID HALLWAY01_AMBI = 3699044378U;
+        static const AkUniqueID HALLWAY02_AMBI = 3065570235U;
+        static const AkUniqueID HALLWAY03_AMBI = 2367436384U;
+        static const AkUniqueID HALLWAY04_AMBI = 1563284185U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

@@ -3351,7 +3351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &128365817
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12045,7 +12045,8 @@ MonoBehaviour:
   reverbAuxBus:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 41abcce52d07f244d90fe5c22de76650,
+      type: 2}
   reverbLevel: 1
   transmissionLoss: 1
   roomToneEvent:
@@ -39866,7 +39867,8 @@ MonoBehaviour:
   reverbAuxBus:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f61bb5113a9e00a4da7517a057d42216,
+      type: 2}
   reverbLevel: 1
   transmissionLoss: 1
   roomToneEvent:
@@ -46125,7 +46127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2573269032146215340
 MonoBehaviour:
   m_ObjectHideFlags: 0
