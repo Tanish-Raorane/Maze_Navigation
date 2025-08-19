@@ -132,7 +132,6 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaintBrushTrigScript.cs" />
     <Compile Include="Assets\Scripts\CaneController.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\Scripts\MetaballParticleManager.cs" />
-    <Compile Include="Assets\Scenes\asylum materials\scripts\FootstepAudio.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\hapticScaleArrow.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_customMaterial.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\PaintManager.cs" />
@@ -160,6 +159,7 @@
     <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoopTrigger.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectLocker.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\gunTurret.cs" />
+    <Compile Include="Assets\Scenes\asylum materials\scripts\FootstepPlayer.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\uselessMachine.cs" />
     <Compile Include="Assets\Scenes\asylum materials\scripts\FluorescentFlicker.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaletteMenu.cs" />
