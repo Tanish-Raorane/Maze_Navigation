@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{74BBCA36-B18F-4BBF-A9BC-09C14BE267F4}",
     "Language": "SFX",
-    "Hash": "{47D8BBE7-1A50-D67D-5D03-1109D52965F4}",
+    "Hash": "{F67CD6E3-36CF-D95F-6C02-F9597883F03C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Bank",
     "ShortName": "Main_Bank",
     "Path": "Main_Bank.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AtmosphericMix.wav",
-      "CachePath": "BB/{BBEC1A20-EF58-E858-5581-398B3C54938C}.wem"
+      "CachePath": "52/{52D72543-054F-70A2-186C-4B75BA66B4C8}.wem"
      },
      {
       "Id": "290178721",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "FootstepsRunning.9.wav",
       "CachePath": "BC/{BC81D982-BDDE-6B9A-8E52-D7222CF7320D}.wem"
+     },
+     {
+      "Id": "304588199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EcholocationClick.wav",
+      "CachePath": "8D/{8D4914D1-5DE0-7C79-4CA5-49EEA2BEE244}.wem"
      },
      {
       "Id": "430990629",
@@ -77,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SoundObjectDestination.wav",
-      "CachePath": "98/{98788E95-AAC5-3192-0F35-90633D765F10}.wem"
+      "CachePath": "6A/{6A07ECA5-65F1-D418-793C-E88CAF3586B2}.wem"
      }
     ],
     "Events": [
@@ -90,6 +98,20 @@
       "MediaRefs": [
        {
         "Id": "51817183"
+       }
+      ]
+     },
+     {
+      "Id": "4199643119",
+      "Name": "Play_CaneClick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CaneClick",
+      "GUID": "{076E3D87-7460-4793-90A7-D49534D0DE1D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.032",
+      "DurationMax": "1.032",
+      "MediaRefs": [
+       {
+        "Id": "304588199"
        }
       ]
      },
@@ -136,9 +158,8 @@
       "Name": "Play_SoundObjectDestination",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SoundObjectDestination",
       "GUID": "{612E11BA-825A-41B9-8868-BCAE73E62B1C}",
-      "DurationType": "OneShot",
-      "DurationMin": "33.432",
-      "DurationMax": "33.432",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "875720282"
@@ -148,6 +169,6 @@
     ]
    }
   ],
-  "FileHash": "{14AADE56-D1FB-2D70-6437-2FB6ECA31441}"
+  "FileHash": "{794D7E84-CBA0-1418-D669-A35E34C35399}"
  }
 }
