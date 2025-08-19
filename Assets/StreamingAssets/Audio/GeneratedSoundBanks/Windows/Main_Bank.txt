@@ -1,18 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1077799210	Play_SoundObjectDestination			\Default Work Unit\Play_SoundObjectDestination	
-	2202212453	Play_AtmosphericMix			\Default Work Unit\Play_AtmosphericMix	
-	2962348544	Play_CreepyAmbienceLow			\Default Work Unit\Play_CreepyAmbienceLow	
-	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4199643119	Play_CaneClick			\Default Work Unit\Play_CaneClick	
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	52442795	Binaural			\Default Work Unit\Master Audio Bus\Binaural	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4092912861	Hallway01_AmbiVerb			\Default Work Unit\Master Audio Bus\Binaural\Hallway01_AmbiVerb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	216857811	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	3341797927	Alley_Long_Smooth_70m_HOA3_01	Wwise Convolution Reverb			Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51817183	AtmosphericMix	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\52\{52D72543-054F-70A2-186C-4B75BA66B4C8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\AtmosphericMix		105811392
-	290178721	FootstepsRunning_9	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\BC\{BC81D982-BDDE-6B9A-8E52-D7222CF7320D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_9		37420
-	304588199	CaneClick	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\8D\{8D4914D1-5DE0-7C79-4CA5-49EEA2BEE244}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\CaneClick		198240
-	430990629	FootstepsRunning_5	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\07\{07296BF0-A384-F95E-EF6E-9E5B7F1CD324}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_5		44308
-	448615811	FootstepsRunning_7	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\4F\{4FB8CF6F-3A2F-F76C-3D1A-2816C4664F3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_7		51656
-	459500488	FootstepsRunning_11	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\E6\{E6676C9F-0799-E523-BAEF-F50CEE40BDBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_11		44308
-	531123315	FootstepsRunning_3	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\F0\{F0C2DD10-0A1E-2542-B9FE-E13DFED5A4CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_3		42476
-	820883097	CreepyAmbienceLow	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\7B\{7B9FD10F-1126-49B5-27AF-3CE1C686B736}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\CreepyAmbienceLow		1411296
-	875720282	SoundObjectDestination	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\6A\{6A07ECA5-65F1-D418-793C-E88CAF3586B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundObjectDestination		6419040
+	304588199	CaneClick	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\03\{03737142-8C93-5EC8-94C6-66443AEA6988}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaneClick		21664
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	132888797	Alley_Long_Smooth_70m_HOA3_01	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\9F\{9FF18594-BCFA-19C8-D48F-033BF517D3DA}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - F&S - HOA3, FOA, Quad & Stereo\BOOM Library IR - F&S\HOA3\Alley Long\Alley_Long_Smooth_70m_HOA3_01	Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.	1644784
 

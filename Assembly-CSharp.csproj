@@ -105,6 +105,7 @@
     <Compile Include="Assets\sceneScripts\button.cs" />
     <Compile Include="Assets\MOAD\maze\meshFade.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\Senmag_stylusLock.cs" />
+    <Compile Include="Assets\Scenes\asylum materials\scripts\EmitterTrigger.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\SprayPaint.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Scripts\DeviceInterfaces\LibreOneComms.cs" />
     <Compile Include="Assets\sceneScripts\spaceBall.cs" />

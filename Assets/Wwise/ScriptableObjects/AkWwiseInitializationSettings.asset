@@ -24,7 +24,7 @@ MonoBehaviour:
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0
-    m_IsAutoBankEnabled: 1
+    m_IsAutoBankEnabled: 0
     m_DefaultListenerScalingFactor: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
@@ -44,9 +44,9 @@ MonoBehaviour:
       m_MaxSoundPropagationDepth: 8
       m_MovementThreshold: 0.25
       m_NumberOfPrimaryRays: 35
-      m_MaxReflectionOrder: 2
-      m_MaxDiffractionOrder: 4
-      m_DiffractionOnReflectionsOrder: 2
+      m_MaxReflectionOrder: 4
+      m_MaxDiffractionOrder: 6
+      m_DiffractionOnReflectionsOrder: 3
       m_MaxEmitterRoomAuxSends: 3
       m_MaxPathLength: 1000
       m_CPULimitPercentage: 0

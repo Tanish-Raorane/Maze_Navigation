@@ -15,9 +15,19 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	1229948536	Environment			\Default Work Unit\Environment	
+	52442795	Binaural			\Default Work Unit\Master Audio Bus\Binaural	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3991942870	Music			\Default Work Unit\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	849258820	EarlyReflections			\Default Work Unit\Master Audio Bus\EarlyReflections	
+	3657263530	Verb			\Default Work Unit\Master Audio Bus\Verb	
+	4092912861	Hallway01_AmbiVerb			\Default Work Unit\Master Audio Bus\Binaural\Hallway01_AmbiVerb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	216857811	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	3341797927	Alley_Long_Smooth_70m_HOA3_01	Wwise Convolution Reverb			Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.
+	3399505373	Reflect_Physically_Based	Wwise Reflect			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -10,11 +10,62 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{00096596-CF73-3A4B-76D6-34FE9D1B00F4}",
+    "Hash": "{E5CD5506-9A21-A056-4F04-EAA2E6217A27}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
+    "Media": [
+     {
+      "Id": "132888797",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "OtherBank",
+      "ShortName": "BOOM Library IR - F&S\\Alley 03 70m HOA3.wav",
+      "CachePath": "0F/{0FA26C83-B6D6-81E2-6625-692AFD294673}.wem"
+     }
+    ],
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "216857811",
+       "Name": "Resonance Audio Renderer (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway01_AmbiVerb\\[Effect Slot [1]: (Resonance Audio Renderer)]\\Resonance Audio Renderer (Custom)",
+       "GUID": "{F2AAC1EE-7D6C-4F5B-9AF3-D457C7DBDC11}",
+       "LibName": "Resonance Audio Renderer",
+       "LibId": "6557955"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "484890516",
+       "Name": "Church_Small_Wood",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Church_Small_Wood",
+       "GUID": "{940CCB47-F031-4C6A-B0E6-726CAC418C02}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3341797927",
+       "Name": "Alley_Long_Smooth_70m_HOA3_01",
+       "ObjectPath": "\\Effects\\BOOM Library IR - F&S - HOA3, FOA, Quad & Stereo\\BOOM Library IR - F&S\\HOA3\\Alley Long\\Alley_Long_Smooth_70m_HOA3_01",
+       "GUID": "{FE6468AC-C0D1-4B0E-B63A-D04056B7F794}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "132888797"
+        }
+       ]
+      },
+      {
+       "Id": "3399505373",
+       "Name": "Reflect_Physically_Based",
+       "ObjectPath": "\\Effects\\Factory Reflect Physically-Based\\Reflect_Physically_Based",
+       "GUID": "{C69F5865-C206-4B45-BC40-315F3F39151A}",
+       "LibName": "Wwise Reflect",
+       "LibId": "11206659"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,22 +87,62 @@
     },
     "Busses": [
      {
-      "Id": "1229948536",
-      "Name": "Environment",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Environment",
-      "GUID": "{ABC08D19-500D-4FC8-B52B-87D3493CAD85}"
+      "Id": "52442795",
+      "Name": "Binaural",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural",
+      "GUID": "{8ED0A099-8BE3-40A6-BB79-0D16C28ECDF6}"
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "849258820",
+      "Name": "EarlyReflections",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EarlyReflections",
+      "GUID": "{30516791-F7F0-474F-8356-E22D83BB8138}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3399505373"
+        }
+       ]
+      }
      },
      {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music",
-      "GUID": "{C05817EA-01F1-4941-B769-7E538EF4B94F}"
+      "Id": "3657263530",
+      "Name": "Verb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Verb",
+      "GUID": "{74742F1A-0BDC-4FAF-AE0F-2BD006CC6D58}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "484890516"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4092912861",
+      "Name": "Hallway01_AmbiVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Binaural\\Hallway01_AmbiVerb",
+      "GUID": "{227DA72D-40AC-48DC-AD2B-866C9A3B1DC8}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "216857811"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "3341797927"
+        }
+       ]
+      }
      }
     ],
     "AcousticTextures": [
@@ -533,6 +624,6 @@
     ]
    }
   ],
-  "FileHash": "{0C3A01FB-4574-0E39-C35F-6DB57D476924}"
+  "FileHash": "{8BDE360D-C418-A66E-DA7C-753B8DDE53F7}"
  }
 }

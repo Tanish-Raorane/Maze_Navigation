@@ -303,11 +303,11 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 42de270005d129489173f8b576f11f9f
     GuidInternal: 
-    m_lastTime: -8584460697834581169
+    m_lastTime: -8584459934909732865
     List:
-    - name: Environment
-      guid: 198dc0ab0d50c84fb52b87d3493cad85
-      id: 1229948536
+    - name: Binaural
+      guid: 99a0d08ee38ba640bb790d16c28ecdf6
+      id: 52442795
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -315,10 +315,50 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 42de270005d129489173f8b576f11f9f
-      - ElementName: Environment
+      - ElementName: Master Audio Bus
         ObjectType: 2
-        guid: 198dc0ab0d50c84fb52b87d3493cad85
-      Path: Master-Mixer Hierarchy\Default Work Unit\Environment
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 99a0d08ee38ba640bb790d16c28ecdf6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural
+    - name: EarlyReflections
+      guid: 91675130f0f74f478356e22d83bb8138
+      id: 849258820
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EarlyReflections
+        ObjectType: 1
+        guid: 91675130f0f74f478356e22d83bb8138
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\EarlyReflections
+    - name: Hallway01_AmbiVerb
+      guid: 2da77d22ac40dc48ad2b866c9a3b1dc8
+      id: 4092912861
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 99a0d08ee38ba640bb790d16c28ecdf6
+      - ElementName: Hallway01_AmbiVerb
+        ObjectType: 1
+        guid: 2da77d22ac40dc48ad2b866c9a3b1dc8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway01_AmbiVerb
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -333,9 +373,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: Music
-      guid: ea1758c0f1014149b7697e538ef4b94f
-      id: 3991942870
+    - name: Verb
+      guid: 1a2f7474dc0baf4fae0f2bd006cc6d58
+      id: 3657263530
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -343,10 +383,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 42de270005d129489173f8b576f11f9f
-      - ElementName: Music
+      - ElementName: Master Audio Bus
         ObjectType: 2
-        guid: ea1758c0f1014149b7697e538ef4b94f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Music
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Verb
+        ObjectType: 1
+        guid: 1a2f7474dc0baf4fae0f2bd006cc6d58
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -359,7 +402,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f6c0f858f22a51429fd55a6891f081d8
     GuidInternal: 
-    m_lastTime: -8584460697829050791
+    m_lastTime: -8584459970100175908
     List:
     - name: Main_Bank
       guid: 36cabb748fb1bf4ba9bc09c14be267f4
@@ -387,7 +430,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b0e8ffe9d8163e449e8f020cb168c7c6
     GuidInternal: 
-    m_lastTime: -8584459995117191940
+    m_lastTime: -8584459977773770827
     List:
     - name: Play_AtmosphericMix
       guid: 33739bc9310113408a86f7770c964951
@@ -420,9 +463,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 873d6e076074934790a7d49534d0de1d
       Path: Events\Default Work Unit\Play_CaneClick
-      maxAttenuation: 0
-      maxDuration: 1.032
-      minDuration: 1.032
+      maxAttenuation: 10
+      maxDuration: 0.11234424
+      minDuration: 0.11234424
     - name: Play_CreepyAmbienceLow
       guid: 4be8e02d21426b499b43dbb354734500
       id: 2962348544
@@ -488,7 +531,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ba112e615a82b9418868bcae73e62b1c
       Path: Events\Default Work Unit\Play_SoundObjectDestination
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Play_SwellingVoxCreepy
@@ -582,7 +625,7 @@ MonoBehaviour:
     m_lastTime: -8584460697828574086
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0700000008000000090000000b0000000c0000001100000012000000190000002400000025000000d3010000d4010000df010000e0010000
+  ExpandedWaapiItemIds: 02000000030000000400000005000000060000000700000008000000090000000b0000000c000000110000001200000019000000210000002400000025000000d3010000d4010000df010000e0010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
