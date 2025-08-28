@@ -118,6 +118,8 @@ public class Senmag_stylusControl : MonoBehaviour
 	public bool isColliding;
 	private int colliderCounter = 0;
 
+	private AudioSource floorSound;
+
 	//public string collisionTag = "";
 
 	// Start is called before the first frame update
@@ -131,6 +133,7 @@ public class Senmag_stylusControl : MonoBehaviour
 		stylusState.navswitchState = Stylus_NavswitchState.released;
 		moveButtons();
 		anyHighlighted = false;
+		floorSound = GameObject.Find("FloorSound").GetComponent<AudioSource>();	
 	}
 
 	public Stylus_Action getAction()
@@ -149,13 +152,21 @@ public class Senmag_stylusControl : MonoBehaviour
 		
 	}
 
-   // private void OnCollisionEnter(Collision collision)
-   // {
-   //     if (collision.gameObject.transform.CompareTag("floor"))
-   //     {
-			//collisionTag = "floor";
-   //     }
-   // }
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.CompareTag("floor"))
+		{
+			floorSound.Play();
+		}
+    }
+
+    // private void OnCollisionEnter(Collision collision)
+    // {
+    //     if (collision.gameObject.transform.CompareTag("floor"))
+    //     {
+    //collisionTag = "floor";
+    //     }
+    // }
 
 
     void Update()

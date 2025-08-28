@@ -10,6 +10,7 @@ TagManager:
   - Obstacle
   - Door
   - Gas
+  - floor
   layers:
   - Default
   - TransparentFX
