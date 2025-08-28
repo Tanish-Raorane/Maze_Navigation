@@ -8,6 +8,8 @@ TagManager:
   - Paintbrush
   - StylusTip
   - Obstacle
+  - Door
+  - Gas
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - UselessBoxLayer
   - UselessBoxLever
-  - 
+  - Cane
   - 
   - 
   - 

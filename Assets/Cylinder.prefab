@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 7445174769565817015}
   - component: {fileID: 1806841701629792945}
   - component: {fileID: 2750938063877308264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
