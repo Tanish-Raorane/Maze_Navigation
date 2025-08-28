@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\scripts\\onenterdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\onenterdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "OnEnterDoor.cs",
+              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\OnEnterDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OnEnterDoor.cs",
+              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\OnEnterDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OnEnterDoor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:16:34.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CaneController.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CaneController.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CaneController.cs",
               "ViewState": "AgIAALwAAAAAAAAAAAAkwL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T19:28:13.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-15T19:28:13.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ControllerPickUp.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\ControllerPickUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControllerPickUp.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "avr_hoopControl.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Demos\\AVR\\avr_hoopControl.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Demos\\AVR\\avr_hoopControl.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Senmag_interactionTools.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\UserScripts\\Senmag_interactionTools.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\UserScripts\\Senmag_interactionTools.cs",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GarrethCanePrefabController.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\GarrethCanePrefabController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GarrethCanePrefabController.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FluorescentFlicker.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\asylum materials\\scripts\\FluorescentFlicker.cs",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Senmag_Workspace.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_Workspace.cs",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StickCollide.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\StickCollide.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StickCollide.cs",
@@ -163,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CurosrLine.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CurosrLine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CurosrLine.cs",
@@ -175,20 +191,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Senmag_HapticCursor.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
               "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "ViewState": "AgIAAAMDAAAAAAAAAAAkwDADAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAPcCAAAAAAAAAAAAwA4DAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T23:43:33.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Senmag_stylusControl.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusControl.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Senmag_stylusTip.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",
               "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Resources\\EndEffectors\\DK1_Stylus_V1\\source\\Senmag_stylusTip.cs",

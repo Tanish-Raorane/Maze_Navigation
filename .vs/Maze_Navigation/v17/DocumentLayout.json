@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\scripts\\onenterdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\onenterdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\onenterdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|c:\\users\\ci24393\\downloads\\maze_navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|solutionrelative:assets\\senmagsdk\\core\\scripts\\senmag_hapticcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{588FA6E0-E599-6D5D-A2C7-5002DE70A21B}|Assembly-CSharp.csproj|C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\assets\\senmagsdk\\core\\scripts\\senmag_workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +67,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Senmag_HapticCursor.cs",
+              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
+              "ViewState": "AgIAAPcCAAAAAAAAAAAAwA4DAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T23:43:33.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OnEnterDoor.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\OnEnterDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OnEnterDoor.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "Assets\\Scripts\\OnEnterDoor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T17:16:34.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T17:16:34.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CaneController.cs",
               "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\Scripts\\CaneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CaneController.cs",
@@ -87,12 +103,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CaneController.cs",
               "ViewState": "AgIAALwAAAAAAAAAAAAkwL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T19:28:13.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-15T19:28:13.256Z"
             },
             {
               "$type": "Document",
@@ -189,18 +200,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T22:07:16.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Senmag_HapticCursor.cs",
-              "DocumentMoniker": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "RelativeDocumentMoniker": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "ToolTip": "C:\\Users\\ci24393\\Downloads\\Maze_Navigation\\Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "RelativeToolTip": "Assets\\SenmagSDK\\Core\\Scripts\\Senmag_HapticCursor.cs",
-              "ViewState": "AgIAAAMDAAAAAAAAAAAkwDADAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T23:43:33.013Z"
             },
             {
               "$type": "Document",
