@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,8 +26,19 @@ public class CaneController : MonoBehaviour
     public GameObject xrOrigin;
     private GameObject xrCamera;
 
+    //private Quaternion defaultCursorRotation;
+    //private Quaternion deviceLocationRotation;
+    private Vector3 defaultCursorRotation;
+    private Vector3 deviceLocationRotation;
+
     public float moveSpeed = 3;
     public float rotationSpeed = 60;
+
+    
+    //public float tiltAmount = 30f;   
+    //public float smoothSpeed = 5f;
+    //private float lastY;
+
     
 
     //public GameObject rightHandDummy;
@@ -56,7 +68,7 @@ public class CaneController : MonoBehaviour
     void Update()
     {
 
-        if (senmagWorkspace.transform.GetChild(0).GetChild(1) == null || senmagWorkspace.transform.childCount == 0)
+        if (senmagWorkspace.transform.GetChild(0) == null || senmagWorkspace.transform.childCount == 0)
         {
             return;
         }
@@ -77,6 +89,8 @@ public class CaneController : MonoBehaviour
         {
             defaultCursor = senmagWorkspace.transform.GetChild(0).GetChild(1).gameObject;
             deviceLocation = senmagWorkspace.transform.GetChild(0).GetChild(0).gameObject;
+            defaultCursorRotation = defaultCursor.transform.localEulerAngles;
+            deviceLocationRotation = deviceLocation.transform.localEulerAngles;
             //defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = canePrefab;
 
@@ -96,11 +110,29 @@ public class CaneController : MonoBehaviour
 
             /*Setting layer of cane*/
             cane.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("Cane");
-
+            //cane.transform.GetChild(0).GetChild(0).gameObject.layer = LayerMask.NameToLayer("Cane");
+            //lastY = cane.transform.GetChild(0).position.y;
 
             firstTime = true;
         }
 
+
+        //defaultCursor.transform.localEulerAngles = defaultCursorRotation;
+        //deviceLocation.transform.localEulerAngles = deviceLocationRotation;
+        /* Cane Smooth Rotation */
+        //float deltaY = cane.transform.GetChild(0).position.y - lastY;
+
+        //// Convert vertical movement into tilt around neutral angle
+        //float offset = Mathf.Clamp(deltaY * tiltAmount * 50f, -tiltAmount, tiltAmount);
+
+        //float targetX = offset - 90f;
+
+        //// Keep cane’s Y/Z rotation as they are, only change X
+        //Quaternion targetRotation = Quaternion.Euler(targetX, cane.transform.GetChild(0).localEulerAngles.y, cane.transform.GetChild(0).localEulerAngles.z);
+
+        //cane.transform.GetChild(0).localRotation = Quaternion.Slerp(cane.transform.GetChild(0).localRotation, targetRotation, Time.deltaTime * smoothSpeed);
+
+        //lastY = cane.transform.GetChild(0).position.y;
 
         /*code to make the position and rotation of the cursor same as the right hand model*/
         //cane.transform.GetChild(0).transform.position = rightHandModel.transform.position;
@@ -166,10 +198,10 @@ public class CaneController : MonoBehaviour
         //    Time.deltaTime * rotationSpeed
         //);
 
-        
+
         if (leftTrigger.action.WasPressedThisFrame() && !oneTime)
         {
-            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.6f, 0, 0.4f);
+            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.3f, -0.25f, 0.4f);
             //cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
             //cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
             oneTime = true;
@@ -197,6 +229,7 @@ public class CaneController : MonoBehaviour
 
         if (defaultCursor.GetComponent<Senmag_stylusControl>().isColliding)
         {
+
             xrOrigin.GetComponent<ActionBasedContinuousMoveProvider>().moveSpeed = 0;
             xrOrigin.GetComponent<ActionBasedContinuousTurnProvider>().turnSpeed = 0;
         }

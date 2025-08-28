@@ -118,6 +118,8 @@ public class Senmag_stylusControl : MonoBehaviour
 	public bool isColliding;
 	private int colliderCounter = 0;
 
+	//public string collisionTag = "";
+
 	// Start is called before the first frame update
 	void Start()
     {
@@ -143,10 +145,20 @@ public class Senmag_stylusControl : MonoBehaviour
 		
 		isColliding = true;
 		colliderCounter = 2;
+
+		
 	}
 
+   // private void OnCollisionEnter(Collision collision)
+   // {
+   //     if (collision.gameObject.transform.CompareTag("floor"))
+   //     {
+			//collisionTag = "floor";
+   //     }
+   // }
 
-	void Update()
+
+    void Update()
 	{
 		if(colliderCounter > 0)
 		{

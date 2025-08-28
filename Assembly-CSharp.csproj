@@ -66,6 +66,7 @@
     <Compile Include="Assets\sceneScripts\Slicer.cs" />
     <Compile Include="Assets\sceneScripts\TelerobotDemo.cs" />
     <Compile Include="Assets\sceneScripts\MessageBanner.cs" />
+    <Compile Include="Assets\Scripts\CaneTriggertest.cs" />
     <Compile Include="Assets\SenmagSDK\Core\Resources\EndEffectors\DK1_Stylus_V1\source\Senmag_stylusTip.cs" />
     <Compile Include="Assets\sceneScripts\beatsaber.cs" />
     <Compile Include="Assets\sceneScripts\CollisionTracker.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\PaintManager.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\grapple.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\AVR\avr_hoopControl.cs" />
+    <Compile Include="Assets\Scripts\OnEnterCaneRotate.cs" />
     <Compile Include="Assets\sceneScripts\Capsule.cs" />
     <Compile Include="Assets\CubeSphere.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\RendererFeatures\RenderMetaballsScreenSpace.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Assets\SenmagSDK\Demos\Welding\prefabs\Tools\weldWire.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools_override.cs" />
     <Compile Include="Assets\Scenes\AWE_Demo\AWE_Demo.cs" />
+    <Compile Include="Assets\urp-kawase-blur-master\Assets\KawaseBlur\KawaseBlur.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_hapticGrid.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\ColourGiver.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\bullet.cs" />
@@ -113,11 +116,13 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Scripts\Paintable.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Palettes\HSV\BoxSlider_haptic.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\Prefabs\basketballHoop.cs" />
+    <Compile Include="Assets\Scripts\Sequence.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\StickCollide.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\CanvasManager.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\leg.cs" />
     <Compile Include="Assets\Scripts\ControllerPickUp.cs" />
+    <Compile Include="Assets\ObjectDropTrigger.cs" />
     <Compile Include="Assets\Scripts\OnEnterObstacle.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectScaler.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools.cs" />
@@ -143,6 +148,7 @@
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\gunTurret.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\hatch.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\lidScript.cs" />
+    <Compile Include="Assets\Scripts\DoorOpenerTrigger.cs" />
     <Compile Include="Assets\sceneScripts\CreepSpawningUI.cs" />
     <Compile Include="Assets\sceneScripts\telerobotParamControl.cs" />
     <Compile Include="Assets\sceneScripts\button.cs" />
@@ -153,6 +159,7 @@
     <Compile Include="Assets\sceneScripts\spaceBall.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_button_forcefield.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\uselessMachine.cs" />
+    <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\sceneScripts\teapotCurling.cs" />
     <Compile Include="Assets\Scenes\asylum materials\scripts\FluorescentFlicker.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaletteMenu.cs" />
@@ -170,6 +177,7 @@
     <Compile Include="Assets\SenmagSDK\Core\Scripts\Senmag_HapticCursor.cs" />
     <Compile Include="Assets\sceneScripts\TelerobotUI.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\RadialMenu\Senmag_radialMenu_Back.cs" />
+    <Compile Include="Assets\Scripts\EmissionFlicker.cs" />
     <Compile Include="Assets\RoundedCube.cs" />
   </ItemGroup>
   <ItemGroup>
