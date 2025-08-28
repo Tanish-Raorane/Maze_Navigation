@@ -6,10 +6,10 @@ public class Sequence : MonoBehaviour
 {
     public GameObject caneController;
     public Renderer planeRend;
-    public OpenDoor doorOpener;
-    public WeighingScale weighingScale;
+    //public OpenDoor doorOpener;
+    //public WeighingScale weighingScale;
     //private bool openDoor = false;
-    public GameObject doorLeft, doorRight;
+    //public GameObject doorLeft, doorRight;
 
     private bool startFade = false;
     public float targetAlpha;

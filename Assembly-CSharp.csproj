@@ -146,6 +146,7 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\Painter\Metaballs\RendererFeatures\RenderMetaballs.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectLocker.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\gunTurret.cs" />
+    <Compile Include="Assets\Scripts\OnEnterDoor.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\hatch.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\lidScript.cs" />
     <Compile Include="Assets\Scripts\DoorOpenerTrigger.cs" />
