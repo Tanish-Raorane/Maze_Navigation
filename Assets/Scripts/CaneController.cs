@@ -44,7 +44,7 @@ public class CaneController : MonoBehaviour
     //public GameObject rightHandDummy;
 
     private bool oneTime = false;  //Replace this with an Audio trigger in a coroutine once sound is added so that the user can draw the cane only after its' corresponding audio prompt is given
-
+    //public Sequence sequence;
     void Start()
     {
         //StartCoroutine(CanePosition());

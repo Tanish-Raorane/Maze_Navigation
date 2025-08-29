@@ -108,6 +108,7 @@
     <Compile Include="Assets\sceneScripts\Slider.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Welding\prefabs\Tools\weldWire.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_interactionTools_override.cs" />
+    <Compile Include="Assets\OnEnterSquishy.cs" />
     <Compile Include="Assets\Scenes\AWE_Demo\AWE_Demo.cs" />
     <Compile Include="Assets\urp-kawase-blur-master\Assets\KawaseBlur\KawaseBlur.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\Senmag_hapticGrid.cs" />

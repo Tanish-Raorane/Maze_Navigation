@@ -120,7 +120,7 @@ public class Senmag_stylusControl : MonoBehaviour
 
 	private AudioSource floorSound;
 	private AudioSource wallSound;
-	private AudioSource doorSound;
+	//private AudioSource doorSound;
 	private AudioSource wheelchairSound;
 	private AudioSource chairSound;
 	private AudioSource bedSound;
@@ -140,7 +140,7 @@ public class Senmag_stylusControl : MonoBehaviour
 		anyHighlighted = false;
 		floorSound = GameObject.Find("FloorSound").GetComponent<AudioSource>();
         wallSound = GameObject.Find("WallSound").GetComponent<AudioSource>();
-        doorSound = GameObject.Find("DoorSound").GetComponent<AudioSource>();
+        //doorSound = GameObject.Find("DoorSound").GetComponent<AudioSource>();
         wheelchairSound = GameObject.Find("WheelchairSound").GetComponent<AudioSource>();
         chairSound = GameObject.Find("ChairSound").GetComponent<AudioSource>();
         bedSound = GameObject.Find("BedSound").GetComponent<AudioSource>();	
@@ -174,10 +174,10 @@ public class Senmag_stylusControl : MonoBehaviour
             wallSound.Play();
         }
 
-        if (collision.collider.CompareTag("doorbody"))
-        {
-            doorSound.Play();
-        }
+        //if (collision.collider.CompareTag("doorbody"))
+        //{
+        //    doorSound.Play();
+        //}
 
         if (collision.collider.CompareTag("wheelchair"))
         {

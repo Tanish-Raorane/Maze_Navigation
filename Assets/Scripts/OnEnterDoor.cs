@@ -9,12 +9,14 @@ public class OnEnterDoor : MonoBehaviour
     private Transform door;
     public float openAngle = -75f;
     public float rotationSpeed = 50f;
-
+    private AudioSource doorSound;
+    private bool firstTime = false;
 
 
     void Start()
     {
         //door = transform.GetChild(0).GetChild(0);
+        doorSound = GameObject.Find("DoorSound").GetComponent<AudioSource>();   
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,8 +28,9 @@ public class OnEnterDoor : MonoBehaviour
             {
                 
                
-
+                
                 shouldOpen = true;
+
             }
         }
     }
@@ -39,6 +42,13 @@ public class OnEnterDoor : MonoBehaviour
             Quaternion currentRotation = gameObject.transform.localRotation;
             Quaternion targetRotation = Quaternion.Euler(0, openAngle, 0);
             gameObject.transform.localRotation = Quaternion.RotateTowards(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+            if(!firstTime)
+            {
+                doorSound.Play();   
+                firstTime = true;   
+            }
+
         }
     }
 }
