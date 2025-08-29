@@ -11,6 +11,11 @@ TagManager:
   - Door
   - Gas
   - floor
+  - wall
+  - doorbody
+  - wheelchair
+  - chair
+  - bed
   layers:
   - Default
   - TransparentFX
