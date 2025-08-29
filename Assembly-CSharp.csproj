@@ -182,6 +182,7 @@
     <Compile Include="Assets\sceneScripts\TelerobotUI.cs" />
     <Compile Include="Assets\SenmagSDK\UserScripts\RadialMenu\Senmag_radialMenu_Back.cs" />
     <Compile Include="Assets\Scripts\EmissionFlicker.cs" />
+    <Compile Include="Assets\OnReachDestination.cs" />
     <Compile Include="Assets\RoundedCube.cs" />
   </ItemGroup>
   <ItemGroup>
