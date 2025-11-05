@@ -35,7 +35,9 @@ public class Sequence : MonoBehaviour
     public AudioSource doorSlam;
     public GameObject leftController;
     public GameObject xrOrigin;
-    
+
+
+    public bool skip = false;
 
 
     //public bool orientCane = false;
@@ -56,28 +58,33 @@ public class Sequence : MonoBehaviour
 
     public IEnumerator startSequence()
     {
-        yield return new WaitForSecondsRealtime(1f);
-        wind.Play();
-        yield return new WaitForSecondsRealtime(1f);
-        ND1.Play();
-        yield return new WaitForSecondsRealtime(8f);
-        ND2.Play();
-        yield return new WaitForSecondsRealtime(9f);
-        footsteps.Play();
-        yield return new WaitForSecondsRealtime(7f);
-        ND3.Play();
-        yield return new WaitForSecondsRealtime(10f);
-        breaths.Play();
-        carStart.Play();
-        yield return new WaitForSecondsRealtime(6f);
-        carDoor.Play();
-        yield return new WaitForSecondsRealtime(1.5f);
-        ND7.Play();
-        chain.Play(); 
-        yield return new WaitForSecondsRealtime(12f);
-        footsteps2.Play();
-        yield return new WaitForSecondsRealtime(7f);
-        doorSlam.Play();
+
+        if(!skip)
+        {
+            yield return new WaitForSecondsRealtime(1f);
+            wind.Play();
+            yield return new WaitForSecondsRealtime(1f);
+            ND1.Play();
+            yield return new WaitForSecondsRealtime(8f);
+            ND2.Play();
+            yield return new WaitForSecondsRealtime(9f);
+            footsteps.Play();
+            yield return new WaitForSecondsRealtime(7f);
+            ND3.Play();
+            yield return new WaitForSecondsRealtime(10f);
+            breaths.Play();
+            carStart.Play();
+            yield return new WaitForSecondsRealtime(6f);
+            carDoor.Play();
+            yield return new WaitForSecondsRealtime(1.5f);
+            ND7.Play();
+            chain.Play();
+            yield return new WaitForSecondsRealtime(12f);
+            footsteps2.Play();
+            yield return new WaitForSecondsRealtime(7f);
+            doorSlam.Play();
+        }
+       
         yield return new WaitForSecondsRealtime(1f);
         startFade = true;
         for (int i = 0; i < destinationAudio.Length; i++)

@@ -5923,6 +5923,7 @@ MonoBehaviour:
   doorSlam: {fileID: 1312617268}
   leftController: {fileID: 4002541892670955404}
   xrOrigin: {fileID: 4468546569380633169}
+  skip: 0
 --- !u!4 &365816239
 Transform:
   m_ObjectHideFlags: 0
