@@ -118,12 +118,12 @@ public class Senmag_stylusControl : MonoBehaviour
 	public bool isColliding;
 	private int colliderCounter = 0;
 
-	private AudioSource floorSound;
-	private AudioSource wallSound;
-	//private AudioSource doorSound;
-	private AudioSource wheelchairSound;
-	private AudioSource chairSound;
-	private AudioSource bedSound;
+	//private AudioSource floorSound;
+	//private AudioSource wallSound;
+	////private AudioSource doorSound;
+	//private AudioSource wheelchairSound;
+	//private AudioSource chairSound;
+	//private AudioSource bedSound;
 
 	//public string collisionTag = "";
 
@@ -138,12 +138,12 @@ public class Senmag_stylusControl : MonoBehaviour
 		stylusState.navswitchState = Stylus_NavswitchState.released;
 		moveButtons();
 		anyHighlighted = false;
-		floorSound = GameObject.Find("FloorSound").GetComponent<AudioSource>();
-        wallSound = GameObject.Find("WallSound").GetComponent<AudioSource>();
-        //doorSound = GameObject.Find("DoorSound").GetComponent<AudioSource>();
-        wheelchairSound = GameObject.Find("WheelchairSound").GetComponent<AudioSource>();
-        chairSound = GameObject.Find("ChairSound").GetComponent<AudioSource>();
-        bedSound = GameObject.Find("BedSound").GetComponent<AudioSource>();	
+		//floorSound = GameObject.Find("FloorSound").GetComponent<AudioSource>();
+  //      wallSound = GameObject.Find("WallSound").GetComponent<AudioSource>();
+  //      //doorSound = GameObject.Find("DoorSound").GetComponent<AudioSource>();
+  //      wheelchairSound = GameObject.Find("WheelchairSound").GetComponent<AudioSource>();
+  //      chairSound = GameObject.Find("ChairSound").GetComponent<AudioSource>();
+  //      bedSound = GameObject.Find("BedSound").GetComponent<AudioSource>();	
 	}
 
 	public Stylus_Action getAction()
@@ -162,38 +162,38 @@ public class Senmag_stylusControl : MonoBehaviour
 		
 	}
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.CompareTag("floor"))
-		{
-			floorSound.Play();
-		}
+  //  public void OnCollisionEnter(Collision collision)
+  //  {
+  //      if(collision.collider.CompareTag("floor"))
+		//{
+		//	floorSound.Play();
+		//}
 
-        if (collision.collider.CompareTag("wall"))
-        {
-            wallSound.Play();
-        }
+  //      if (collision.collider.CompareTag("wall"))
+  //      {
+  //          wallSound.Play();
+  //      }
 
-        //if (collision.collider.CompareTag("doorbody"))
-        //{
-        //    doorSound.Play();
-        //}
+  //      //if (collision.collider.CompareTag("doorbody"))
+  //      //{
+  //      //    doorSound.Play();
+  //      //}
 
-        if (collision.collider.CompareTag("wheelchair"))
-        {
-            wheelchairSound.Play();
-        }
+  //      if (collision.collider.CompareTag("wheelchair"))
+  //      {
+  //          wheelchairSound.Play();
+  //      }
 
-        if (collision.collider.CompareTag("chair"))
-        {
-            chairSound.Play();
-        }
+  //      if (collision.collider.CompareTag("chair"))
+  //      {
+  //          chairSound.Play();
+  //      }
 
-        if (collision.collider.CompareTag("bed"))
-        {
-            bedSound.Play();
-        }
-    }
+  //      if (collision.collider.CompareTag("bed"))
+  //      {
+  //          bedSound.Play();
+  //      }
+  //  }
 
     // private void OnCollisionEnter(Collision collision)
     // {

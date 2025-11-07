@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0935210b6328f5d4ba5400573fbfca3e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 42de270005d129489173f8b576f11f9f
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 42de270005d129489173f8b576f11f9f
+    GuidInternal: 
+    m_lastTime: -8584392545490580297
+    List:
+    - name: Binaural
+      guid: 961361746efc36428c9bcff183a87e6e
+      id: 52442795
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural
+    - name: EarlyReflections
+      guid: 429111cfcd9def46889f838cc32889a0
+      id: 849258820
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EarlyReflections
+        ObjectType: 1
+        guid: 429111cfcd9def46889f838cc32889a0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\EarlyReflections
+    - name: FalseHallway
+      guid: 9b7d7e7caa035f47b42f3194c24c4704
+      id: 1644850824
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: RegularVerbs
+        ObjectType: 2
+        guid: 869cc6ba5207304eb0aa129a197ffe64
+      - ElementName: FalseHallway
+        ObjectType: 1
+        guid: 9b7d7e7caa035f47b42f3194c24c4704
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RegularVerbs\FalseHallway
+    - name: Hallway01_Ambi
+      guid: a53c9e21dbe2734593a9c32aa57b72c8
+      id: 3699044378
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway01_Ambi
+        ObjectType: 1
+        guid: a53c9e21dbe2734593a9c32aa57b72c8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway01_Ambi
+    - name: Hallway02_Ambi
+      guid: da3349ff906bac4ab36513618878cee7
+      id: 3065570235
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway02_Ambi
+        ObjectType: 1
+        guid: da3349ff906bac4ab36513618878cee7
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway02_Ambi
+    - name: Hallway03_Ambi
+      guid: 9c6e3619c0dbad42b6dd4bba367278f5
+      id: 2367436384
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway03_Ambi
+        ObjectType: 1
+        guid: 9c6e3619c0dbad42b6dd4bba367278f5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway03_Ambi
+    - name: Hallway04_Ambi
+      guid: e47a39b6240de341ae97130468d9eabe
+      id: 1563284185
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 961361746efc36428c9bcff183a87e6e
+      - ElementName: Hallway04_Ambi
+        ObjectType: 1
+        guid: e47a39b6240de341ae97130468d9eabe
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Binaural\Hallway04_Ambi
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: RegularVerbs
+      guid: 869cc6ba5207304eb0aa129a197ffe64
+      id: 3540253623
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42de270005d129489173f8b576f11f9f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: RegularVerbs
+        ObjectType: 2
+        guid: 869cc6ba5207304eb0aa129a197ffe64
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RegularVerbs
+  BankWwu: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b0e8ffe9d8163e449e8f020cb168c7c6
+    ParentPath: Events\Default Work Unit
+    guid: b0e8ffe9d8163e449e8f020cb168c7c6
+    GuidInternal: 
+    m_lastTime: -8584392545489724702
+    List:
+    - name: Play_AtmosphericMix
+      guid: 33739bc9310113408a86f7770c964951
+      id: 2202212453
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_AtmosphericMix
+        ObjectType: 3
+        guid: 33739bc9310113408a86f7770c964951
+      Path: Events\Default Work Unit\Play_AtmosphericMix
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CaneClick
+      guid: 873d6e076074934790a7d49534d0de1d
+      id: 4199643119
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_CaneClick
+        ObjectType: 3
+        guid: 873d6e076074934790a7d49534d0de1d
+      Path: Events\Default Work Unit\Play_CaneClick
+      maxAttenuation: 0
+      maxDuration: 0.11139042
+      minDuration: 0.11139042
+    - name: Play_CreepyAmbienceLow
+      guid: 4be8e02d21426b499b43dbb354734500
+      id: 2962348544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_CreepyAmbienceLow
+        ObjectType: 3
+        guid: 4be8e02d21426b499b43dbb354734500
+      Path: Events\Default Work Unit\Play_CreepyAmbienceLow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps
+      guid: 707d9f4f1a73d64e92c236ca9c4f711d
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 707d9f4f1a73d64e92c236ca9c4f711d
+      Path: Events\Default Work Unit\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ModularBuzzing
+      guid: 1bd7e409c4454e46b2e8cfb63e8f6f24
+      id: 649899953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_ModularBuzzing
+        ObjectType: 3
+        guid: 1bd7e409c4454e46b2e8cfb63e8f6f24
+      Path: Events\Default Work Unit\Play_ModularBuzzing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SoundObjectDestination
+      guid: ba112e615a82b9418868bcae73e62b1c
+      id: 1077799210
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_SoundObjectDestination
+        ObjectType: 3
+        guid: ba112e615a82b9418868bcae73e62b1c
+      Path: Events\Default Work Unit\Play_SoundObjectDestination
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SwellingVoxCreepy
+      guid: 6314ef0803d8fe41875499eb41606c37
+      id: 1876149510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_SwellingVoxCreepy
+        ObjectType: 3
+        guid: 6314ef0803d8fe41875499eb41606c37
+      Path: Events\Default Work Unit\Play_SwellingVoxCreepy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TonalGlitchBuzzing
+      guid: 2ed30327aa1b644a8aeed80f40c400f7
+      id: 432953570
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0e8ffe9d8163e449e8f020cb168c7c6
+      - ElementName: Play_TonalGlitchBuzzing
+        ObjectType: 3
+        guid: 2ed30327aa1b644a8aeed80f40c400f7
+      Path: Events\Default Work Unit\Play_TonalGlitchBuzzing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c71473520148444a81c07fbc98646c66
+    ParentPath: Game Parameters\Default Work Unit
+    guid: c71473520148444a81c07fbc98646c66
+    GuidInternal: 
+    m_lastTime: -8584392545489102201
+    List: []
+  StateWwu: []
+  SwitchWwu: []
+  TriggerWwu: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 02000000030000000400000005000000060000001f000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
