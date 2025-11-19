@@ -168,9 +168,9 @@
     <Compile Include="Assets\SenmagSDK\Demos\Paint_Demo\PaletteMenu.cs" />
     <Compile Include="Assets\SenmagSDK\Demos\Builder\ObjectSpawner.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\turret.cs" />
+    <Compile Include="Assets\GunRecoil.cs" />
     <Compile Include="Assets\sceneScripts\swingballScript.cs" />
     <Compile Include="Assets\sceneScripts\Lighsaber.cs" />
-    <Compile Include="Assets\GunRecoil.cs" />
     <Compile Include="Assets\sceneScripts\MOAD\uselessMachine\switchScript.cs" />
     <Compile Include="Assets\sceneScripts\controlPannel.cs" />
     <Compile Include="Assets\sceneScripts\SimpleCameraController.cs" />
