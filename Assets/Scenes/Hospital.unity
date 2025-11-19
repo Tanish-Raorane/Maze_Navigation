@@ -5903,7 +5903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   caneController: {fileID: 6483399070937731690}
   planeRend: {fileID: 128365818}
-  targetAlpha: 0.9803922
+  targetAlpha: 0.8823529
   destinationAudio:
   - {fileID: 1173312692}
   - {fileID: 851862271}
