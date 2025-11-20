@@ -15,12 +15,17 @@ public class GunRecoil : MonoBehaviour
     private bool firstTime = false, recoil = false;
     public AudioSource gunAudio;
     //public GameObject gun;
-    //public InputActionReference rightTrigger;
+    public InputActionReference rightTrigger;
     //public InputActionReference leftTrigger;
     //public Transform rightHand;
 
     //public Animator recoilAnim;
     private bool isRecoiling = false;
+
+
+    public GameObject bullet;
+    public Transform spawnPoint;
+    private float bulletSpeed = 20f;
 
     private float moveSpeed = 2f;
     void Start()
@@ -78,20 +83,31 @@ public class GunRecoil : MonoBehaviour
 
         //}
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        //if(Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    recoil = true;
+        //    gunAudio.Play();
+        //}
+
+
+        if (rightTrigger.action.WasPressedThisFrame())
         {
             recoil = true;
             gunAudio.Play();
+
+            GameObject SpawnedBullet = Instantiate(bullet);
+            SpawnedBullet.transform.position = spawnPoint.transform.position;
+            SpawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * bulletSpeed;
+            Destroy(SpawnedBullet, 7);
         }
 
-     
-        
+
 
         //if(rightTrigger.action.ReadValue<float>() > 0.1 && !isRecoiling)
         //{
         //    recoilObjectParent.transform.position = stylusCursor.GetChild(5).position + new Vector3(0.1f, 0f, 0f);
         //    StartCoroutine(RecoilRoutine());
-           
+
 
 
         //}
